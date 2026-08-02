@@ -130,6 +130,22 @@ step after transcription**:
 microphone -> STT (transcription text) -> [this model rewrites it] -> clean command -> app acts
 ```
 
+### Install Ollama + Handy (first time)
+
+1. **Ollama** (serves the model locally):
+   - Download and install from https://ollama.com/ (or `brew install ollama`).
+   - Register the fine-tuned model (needs `models/gemma2-q4_k_m.gguf` on disk):
+
+     ```bash
+     ollama create gemma2:handy-lora -f Modelfile
+     ollama serve            # runs on http://localhost:11434 (started by default)
+     ```
+
+   - Sanity check: `ollama list` shows `gemma2:handy-lora`.
+
+2. **Handy** (the STT app): download and install from https://handy.computer/
+   (free; runs transcription fully on your Mac).
+
 ### Option A — via Ollama (any app)
 
 Send the transcription with the prompt template as the system message:
@@ -187,6 +203,35 @@ Handy already has a post-processing slot wired to your local Ollama:
 > Handy rewrites `settings_store.json` when it quits — apply edits **after**
 > quitting, and re-apply if they get reverted. The repo keeps no live copy;
 > `data/runtime_template.txt` is the source of truth.
+
+### Option C — prompt an agent to connect it for you
+
+Paste this into any AI agent (or Handy's settings) to automate the whole
+connection:
+
+```text
+Connect my local fine-tuned model to Handy and Ollama:
+
+1. Ollama must be installed (https://ollama.com/). If `ollama` is not on
+   PATH, install it, then run: ollama create gemma2:handy-lora -f Modelfile
+   (Modelfile is at /Users/moe/gemma2-handy-finetune/Modelfile and points at
+   models/gemma2-q4_k_m.gguf). Verify with `ollama list`.
+
+2. Handy must be installed from https://handy.computer/. Quit Handy first.
+
+3. Edit ~/Library/Application Support/com.pais.handy/settings_store.json:
+   - settings.post_process_enabled = true
+   - settings.post_process_provider_id = "custom"
+   - settings.post_process_models.custom = "gemma2:handy-lora"
+   - In settings.post_process_prompts, find the entry with
+     id = "domain_expert_code" and replace its prompt field with the full
+     contents of /Users/moe/gemma2-handy-finetune/data/runtime_template.txt
+     (4,885 chars, includes ${output} placeholder).
+   - settings.post_process_selected_prompt_id = "domain_expert_code"
+
+4. Relaunch Handy. Post-processing now routes transcriptions through the
+   local model at http://localhost:11434/v1.
+```
 
 ---
 
