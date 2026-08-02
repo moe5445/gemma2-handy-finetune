@@ -47,7 +47,37 @@ gen_dataset.py  ->  modal train  ->  eval_fresh  ->  merge  ->  GGUF  ->  Ollama
   (794 pairs)      (LoRA, L4)     (real probes)  (fp16)     (Q4_K_M)   (local)
 ```
 
-### 0. Get a HuggingFace token + accept the Gemma license (one time)
+### 0. Set up Modal CLI + account (one time)
+
+All training, eval, merge and GGUF conversion run on Modal — you need an
+account and the CLI on your machine:
+
+1. Create a free account at https://modal.com/ (sign in with GitHub).
+2. Install the CLI — Python 3.9+ required:
+
+   ```bash
+   pip install modal
+   # or: pipx install modal
+   ```
+
+3. Authenticate — this opens your browser and links the CLI to your account:
+
+   ```bash
+   modal token new
+   ```
+
+4. Verify everything works and the artifact volume exists:
+
+   ```bash
+   modal volume ls gemma2-finetune   # should list lora-out, lora-adapter, gemma2-q4_k_m.gguf
+   ```
+
+   > GPU note: `train`/`merge`/`eval` use an NVIDIA L4 GPU. Modal's free tier
+   > does **not** include GPUs — add a payment method under
+   > https://modal.com/settings/billing (you are billed per-second while a GPU
+   > runs, roughly $0.60/hr for an L4; a full train run costs ~$1).
+
+### 1. Get a HuggingFace token + accept the Gemma license (one time)
 
 Gemma-2 is a gated model — you must accept its license and authenticate before
 any step that downloads it from HuggingFace (train, eval, merge, convert):
@@ -68,7 +98,7 @@ any step that downloads it from HuggingFace (train, eval, merge, convert):
    print "Login successful". Skip the step if you already did it before —
    the token never expires by default.
 
-### 1. Generate the dataset (local)
+### 2. Generate the dataset (local)
 
 ```bash
 .venv/bin/python finetune/gen_dataset.py
@@ -77,7 +107,7 @@ any step that downloads it from HuggingFace (train, eval, merge, convert):
 Hand-written seed pairs per term, expanded with synonym swaps into 794 train /
 108 holdout pairs. Deterministic (SEED 42).
 
-### 2. Train on Modal
+### 3. Train on Modal
 
 ```bash
 modal run finetune/modal_finetune.py::train
@@ -88,7 +118,7 @@ on a Modal L4. All artifacts land in the `gemma2-finetune` volume. The
 checkpoint with the **lowest eval loss** (not the last epoch) is promoted to
 `lora-adapter`.
 
-### 3. Evaluate on never-seen probes
+### 4. Evaluate on never-seen probes
 
 ```bash
 modal run finetune/modal_finetune.py::eval_fresh
@@ -98,7 +128,7 @@ Every probe is verified to be absent from train + holdout first. Current score:
 **23/25** with the full template vs **17/25** without exemplars — the exemplars
 in the prompt matter, keep them.
 
-### 4. Merge + quantize
+### 5. Merge + quantize
 
 ```bash
 modal run finetune/modal_finetune.py::merge_local
@@ -112,7 +142,7 @@ Download the result:
 modal volume get gemma2-finetune /artifacts/gemma2-q4_k_m.gguf models/gemma2-q4_k_m.gguf --force
 ```
 
-### 5. Serve with Ollama
+### 6. Serve with Ollama
 
 ```bash
 ollama create gemma2:handy-lora -f Modelfile
