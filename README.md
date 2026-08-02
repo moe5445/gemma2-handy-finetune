@@ -55,7 +55,6 @@ no GPU needed at inference.
 ├── data/
 │   ├── pairs_train.json / pairs_holdout.json   # generated dataset (794 / 108)
 │   ├── runtime_template.txt                    # prompt template WITH exemplars (also the Handy prompt)
-│   ├── runtime_clean.txt / runtime_clean_tpl.txt  # exemplar-free variants (for ablations)
 │   ├── fresh_probes.txt                        # 25 real-user probes never seen in training
 │   └── dataset.json                            # source system/closing/exemplars
 ├── models/

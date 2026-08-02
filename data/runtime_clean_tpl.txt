@@ -1,6 +1,0 @@
-<user>
-${output}
-</user>
-
-Rewrite the user input into one short, domain-exact instruction in the user's voice. Match the pattern of the examples: interpret the situation and emit the canonical domain term.
-Return ONLY the rewritten instruction, exactly one line, in the user's voice. No quotations, no headings, no bullets, no comments. If the user input fits no domain idea, just fix spelling and remove filler words. If it is empty, output a single space.

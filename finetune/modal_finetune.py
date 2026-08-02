@@ -27,8 +27,6 @@ train_image = (
         "huggingface_hub",
     )
     .add_local_file("data/runtime_template.txt", "/inputs/runtime_template.txt")
-    .add_local_file("data/runtime_clean.txt", "/inputs/runtime_clean.txt")
-    .add_local_file("data/runtime_clean_tpl.txt", "/inputs/runtime_clean_tpl.txt")
     .add_local_file("data/pairs_train.json", "/inputs/pairs_train.json")
     .add_local_file("data/pairs_holdout.json", "/inputs/pairs_holdout.json")
     .add_local_file("hf_token.txt", "/inputs/hf_token.txt")
