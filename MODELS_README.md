@@ -14,18 +14,43 @@ pipeline_tag: text-generation
 
 # gemma2-handy-lora
 
-LoRA fine-tune of `google/gemma-2-2b-it` that rewrites messy speech-to-text
-transcriptions into **one short, domain-exact engineering instruction**.
+## What is this?
 
-| STT output (user says) | Model output |
-| --- | --- |
-| "don't hit the server so much" | `Rate-limit the API calls.` |
-| "make sure this only runs once" | `Make the webhook handler idempotent.` |
-| "load images only when they appear" | `Lazy-load images as they enter the viewport.` |
+A **fine-tuned `google/gemma-2-2b-it`** (2B params) that acts as a
+**post-processing layer for voice-driven coding tools**. It sits between your
+speech-to-text (STT) app and your code.
 
-Canonical domains: `rate-limit`, `cron`, `mock`, `debounce`, `circuit-breaker`,
-`optimistic`, `lazy-load`, `backpressure`, `idempotent`, `blue-green`,
-`event-sourcing`.
+### The problem it solves
+
+Speech-to-text engines output exactly what you said — full of filler, hedging,
+and loose phrasing ("kind of don't hit the server so much maybe?"). Code
+commands need to be **one short, unambiguous instruction** that an app can
+act on. This model closes that gap.
+
+### What it does
+
+Takes the raw transcription and rewrites it into a **single canonical
+engineering instruction in your voice**, picking the precise domain term for
+what you meant:
+
+| you say (STT output) | what you meant | model output |
+| --- | --- | --- |
+| "don't hit the server so much" | rate limiting | `Rate-limit the API calls.` |
+| "make sure this only runs once" | idempotency | `Make the webhook handler idempotent.` |
+| "load images only when they appear" | lazy loading | `Lazy-load images as they enter the viewport.` |
+
+It classifies input into **11 canonical domains**:
+`rate-limit`, `cron`, `mock`, `debounce`, `circuit-breaker`, `optimistic`,
+`lazy-load`, `backpressure`, `idempotent`, `blue-green`, `event-sourcing` —
+and falls back to fixing spelling/filler when input fits no domain.
+
+### Why a 2B fine-tune instead of a big API model?
+
+- **Private** — runs 100% locally (Ollama / llama.cpp); your voice never
+  leaves your machine.
+- **Fast + free** — no per-call cost, no network round-trip, ~30 ms on a Mac.
+- **Predictable** — constrained to canonical domains, so output is
+  app-actionable, not a chatty LLM reply.
 
 ## Files
 

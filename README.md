@@ -1,23 +1,53 @@
 # gemma2-handy-finetune
 
-A tiny fine-tune that sits **between your speech-to-text (STT) app and your code**.
-It takes the messy transcription of what you said and rewrites it into **one short,
-domain-exact engineering instruction**.
+## What is this?
 
-| you speak (STT output) | model output |
-| --- | --- |
-| "don't hit the server so much" | `Rate-limit the API calls.` |
-| "make sure this only runs once" | `Make the webhook handler idempotent.` |
-| "load images only when they appear" | `Lazy-load images as they enter the viewport.` |
+A **fine-tuned `google/gemma-2-2b-it`** (2B params) that acts as a
+**post-processing layer for voice-driven coding tools**. It sits between your
+speech-to-text (STT) app and your code.
 
-The model is a **LoRA fine-tune of `google/gemma-2-2b-it`**, quantized to
-**Q4_K_M (1.7 GB)** and served locally with **Ollama**. No API calls, no cloud.
+### The problem it solves
 
-It classifies input into 11 canonical domains:
+Speech-to-text engines output exactly what you said — full of filler, hedging,
+and loose phrasing ("kind of don't hit the server so much maybe?"). Code
+commands need to be **one short, unambiguous instruction** that an app can
+act on. This model closes that gap.
+
+### What it does
+
+Takes the raw transcription and rewrites it into a **single canonical
+engineering instruction in your voice**, picking the precise domain term for
+what you meant:
+
+| you say (STT output) | what you meant | model output |
+| --- | --- | --- |
+| "don't hit the server so much" | rate limiting | `Rate-limit the API calls.` |
+| "make sure this only runs once" | idempotency | `Make the webhook handler idempotent.` |
+| "load images only when they appear" | lazy loading | `Lazy-load images as they enter the viewport.` |
+
+It classifies input into **11 canonical domains**:
 `rate-limit`, `cron`, `mock`, `debounce`, `circuit-breaker`, `optimistic`,
-`lazy-load`, `backpressure`, `idempotent`, `blue-green`, `event-sourcing`.
+`lazy-load`, `backpressure`, `idempotent`, `blue-green`, `event-sourcing` —
+and falls back to fixing spelling/filler when input fits no domain.
+
+### Why a 2B fine-tune instead of a big API model?
+
+- **Private** — runs 100% locally (Ollama / llama.cpp); your voice never
+  leaves your machine.
+- **Fast + free** — no per-call cost, no network round-trip, ~30 ms on a Mac.
+- **Predictable** — constrained to canonical domains, so output is
+  app-actionable, not a chatty LLM reply.
+
+### How it was built
+
+Trained with LoRA (r=16/α=32) on 794 hand-written + synonym-augmented
+training pairs across the 11 domains; evaluated on 25 real user prompts the
+model had never seen (**23/25** correct). Quantized to **Q4_K_M (1.7 GB)** —
+no GPU needed at inference.
 
 ---
+
+## Folder layout
 
 ## Folder layout
 
