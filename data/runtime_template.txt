@@ -1,0 +1,88 @@
+<user>
+${output}
+</user>
+
+Rewrite the user input into one short, domain-exact instruction in the user's voice. Match the pattern of the examples: interpret the situation and emit the canonical domain term.
+
+User: Build one part of the feature end to end, from the interface through the backend to the database, so I can test a real thing.
+Output: Start with a vertical slice of the feature.
+
+User: The cards reorder and I want them to glide to their new positions so nothing jumps.
+Output: Animate the card reorder with a FLIP animation.
+
+User: Make the thumbnail enlarge into the full-screen image on the next screen, it should feel like the same image carries over.
+Output: Expand the thumbnail with a shared-element transition.
+
+User: The button sends the same request on every click and I need to avoid duplicate data.
+Output: Make the button request idempotent.
+
+User: When the database updates, remove the stale cache so the next read is fresh.
+Output: Invalidate the cache on every database write.
+
+User: Please fix the spelling of this word and remove the extra spaces, thanks.
+Output: Fix the spelling and remove the extra spaces.
+
+User: Fill the new required column for all existing rows without locking the database.
+Output: Backfill the new column on existing rows in batches.
+
+User: Producers send work faster than workers can clear it, so they should slow down when the queue is full.
+Output: Apply backpressure to the job queue when it fills up.
+
+User: The search fires a request on every keystroke and lags, it should wait until I stop typing.
+Output: Debounce the search input by 300 milliseconds.
+
+User: Record each balance change as an event over time instead of only the final value, so we can audit full history.
+Output: Model the user balance with event sourcing.
+
+User: The server already output the HTML, now bind the JavaScript and state to those nodes without re-rendering everything.
+Output: Hydrate the server-rendered HTML with the interactive state.
+
+User: On login return a short-lived token for APIs and a long-lived one to renew when it expires.
+Output: Use a short-lived access token with a refresh token.
+
+User: Searches on the users table are slow, so create an index that the query planner will use for this where clause.
+Output: Add a database index matching the where clause.
+
+User: On signup, send the welcome email without making the user wait for it to finish before seeing the dashboard.
+Output: Fire the welcome email asynchronously without blocking signup.
+
+User: Turn the new checkout on for a small percent of users first, and for everyone only when it is stable.
+Output: Ship the new checkout behind a feature flag with a canary ramp.
+
+User: Components that read part of the shared store should re-render automatically when that state changes.
+Output: Subscribe the components to the shared store for reactive updates.
+
+User: Move the whole login API to the new service gradually, keeping both versions running so no client breaks.
+Output: Migrate the login API with a strangler-fig, serving both versions.
+
+User: When the API keeps failing I don't want the app to keep hammering it and blow things up. Give it a break for a while after it fails a few times.
+Output: Add a circuit breaker around the API calls so it stops punching after repeated failures.
+
+User: Emails that keep failing to send should be parked somewhere we can inspect later.
+Output: Route the stuck emails to a dead-letter queue.
+
+User: Get the messages in pages by passing the last one we got so it keeps going from there.
+Output: Fetch the messages with cursor pagination.
+
+User: If any of these three inserts fail they should all roll back together.
+Output: Wrap the three inserts in a transaction.
+
+User: As soon as the user clicks like, update the UI straight away and fix it if the server call fails.
+Output: Apply an optimistic update to the like button and roll it back on error.
+
+User: Run the new version alongside the old one and switch all clients over to it once it is healthy.
+Output: Cut over to the new version with a blue-green release.
+
+User: The client calls our endpoint too fast, cap how many requests it can send per minute.
+Output: Rate-limit the endpoint by client.
+
+User: The daily report should generate itself at 6am without anyone triggering it.
+Output: Set up a cron job to generate the daily report.
+
+User: The payment provider is not ready, return canned responses instead of calling it in staging.
+Output: Mock the payment provider with canned responses.
+
+User: Only load the heavy comments section when the user scrolls down to it.
+Output: Lazy-load the comments section on scroll.
+
+Return ONLY the rewritten instruction, exactly one line, in the user's voice. No quotations, no headings, no bullets, no comments. If the user input fits no domain idea, just fix spelling and remove filler words. If it is empty, output a single space.

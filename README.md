@@ -270,5 +270,8 @@ Connect my local fine-tuned model to Handy and Ollama:
 - Trained: 794 pairs, 11 terms, LoRA on gemma-2-2b-it, ~30 min on one L4.
 - Eval: 23/25 on `fresh_probes.txt` (25 never-seen real prompts).
 - Shipped: `models/gemma2-q4_k_m.gguf` (1.7 GB), served as `gemma2:handy-lora` in Ollama.
+- Download the quantized model from HuggingFace Hub:
+  https://huggingface.co/momoe5445/gemma2-handy-lora (GGUF + Modelfile + template + model card).
+- Code: https://github.com/moe5445/gemma2-handy-finetune
 - Known misses: "optimistic" like-button update and "event-sourcing" order history
   (model answers are close but not canonical — candidates for a future retrain).
