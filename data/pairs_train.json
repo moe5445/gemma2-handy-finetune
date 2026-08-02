@@ -1,0 +1,4766 @@
+[
+ {
+  "term": "blue-green",
+  "user": "Flip traffic between the two servers with instant switching.",
+  "output": "Deploy with a blue-green switch to the other server.",
+  "paraphrase": false
+ },
+ {
+  "term": "blue-green",
+  "user": "Flip the load between the previous node and the next node with instant redirecting.",
+  "output": "Deploy with a blue-green switch to the other server.",
+  "paraphrase": true
+ },
+ {
+  "term": "blue-green",
+  "user": "Flip the users between the old node and the candidate node with instant fliping.",
+  "output": "Deploy with a blue-green switch to the other server.",
+  "paraphrase": true
+ },
+ {
+  "term": "blue-green",
+  "user": "Flip all clients between the existing node and the new node with instant point the usersing.",
+  "output": "Deploy with a blue-green switch to the other server.",
+  "paraphrase": true
+ },
+ {
+  "term": "blue-green",
+  "user": "Flip requests between the old node and the candidate node with instant redirecting.",
+  "output": "Deploy with a blue-green switch to the other server.",
+  "paraphrase": true
+ },
+ {
+  "term": "blue-green",
+  "user": "Flip the load between the two servers with instant cut overing.",
+  "output": "Deploy with a blue-green switch to the other server.",
+  "paraphrase": true
+ },
+ {
+  "term": "blue-green",
+  "user": "Flip the users between the old node and the new node with instant point trafficing.",
+  "output": "Deploy with a blue-green switch to the other server.",
+  "paraphrase": true
+ },
+ {
+  "term": "blue-green",
+  "user": "Flip traffic between the two stacks with instant fliping.",
+  "output": "Deploy with a blue-green switch to the other server.",
+  "paraphrase": true
+ },
+ {
+  "term": "blue-green",
+  "user": "Flip traffic between the two servers with instant fliping.",
+  "output": "Deploy with a blue-green switch to the other server.",
+  "paraphrase": true
+ },
+ {
+  "term": "blue-green",
+  "user": "Flip requests between the two stacks with instant cut overing.",
+  "output": "Deploy with a blue-green switch to the other server.",
+  "paraphrase": true
+ },
+ {
+  "term": "blue-green",
+  "user": "Flip requests between the two stacks with instant fliping.",
+  "output": "Deploy with a blue-green switch to the other server.",
+  "paraphrase": true
+ },
+ {
+  "term": "blue-green",
+  "user": "Flip the users between both environments with instant cut overing.",
+  "output": "Deploy with a blue-green switch to the other server.",
+  "paraphrase": true
+ },
+ {
+  "term": "blue-green",
+  "user": "Flip the load between the two stacks with instant point the usersing.",
+  "output": "Deploy with a blue-green switch to the other server.",
+  "paraphrase": true
+ },
+ {
+  "term": "blue-green",
+  "user": "Flip requests between both environments with instant cut overing.",
+  "output": "Deploy with a blue-green switch to the other server.",
+  "paraphrase": true
+ },
+ {
+  "term": "blue-green",
+  "user": "Flip traffic between the two stacks with instant redirecting.",
+  "output": "Deploy with a blue-green switch to the other server.",
+  "paraphrase": true
+ },
+ {
+  "term": "blue-green",
+  "user": "Flip the users between both environments with instant fliping.",
+  "output": "Deploy with a blue-green switch to the other server.",
+  "paraphrase": true
+ },
+ {
+  "term": "blue-green",
+  "user": "Flip all clients between the current node and the fresh node with instant cut overing.",
+  "output": "Deploy with a blue-green switch to the other server.",
+  "paraphrase": true
+ },
+ {
+  "term": "blue-green",
+  "user": "Flip the load between the two stacks with instant switching.",
+  "output": "Deploy with a blue-green switch to the other server.",
+  "paraphrase": true
+ },
+ {
+  "term": "blue-green",
+  "user": "Flip traffic between both environments with instant point trafficing.",
+  "output": "Deploy with a blue-green switch to the other server.",
+  "paraphrase": true
+ },
+ {
+  "term": "blue-green",
+  "user": "Flip all clients between both environments with instant point the loading.",
+  "output": "Deploy with a blue-green switch to the other server.",
+  "paraphrase": true
+ },
+ {
+  "term": "blue-green",
+  "user": "Flip all clients between the current node and the candidate node with instant redirecting.",
+  "output": "Deploy with a blue-green switch to the other server.",
+  "paraphrase": true
+ },
+ {
+  "term": "blue-green",
+  "user": "Keep the old backend warm while the new one stages, then point everything at the new one once it passes checks.",
+  "output": "Cut over to the new version with a blue-green deployment.",
+  "paraphrase": false
+ },
+ {
+  "term": "blue-green",
+  "user": "Keep the previous backend warm while the candidate one stages, then point everything at the fresh stack once it passes checks.",
+  "output": "Cut over to the new version with a blue-green deployment.",
+  "paraphrase": true
+ },
+ {
+  "term": "blue-green",
+  "user": "Keep the old backend warm while the fresh single stages, then point everything at the candidate one once it passes checks.",
+  "output": "Cut over to the new version with a blue-green deployment.",
+  "paraphrase": true
+ },
+ {
+  "term": "blue-green",
+  "user": "Keep the existing backend warm while the fresh single go go stages, then point everything at the fresh one once it passes checks.",
+  "output": "Cut over to the new version with a blue-green deployment.",
+  "paraphrase": true
+ },
+ {
+  "term": "blue-green",
+  "user": "Keep the current backend warm while the next one stages, then point everything at the next one once it passes checks.",
+  "output": "Cut over to the new version with a blue-green deployment.",
+  "paraphrase": true
+ },
+ {
+  "term": "blue-green",
+  "user": "Keep the current backend warm while the fresh single stages, then point everything at the new a single once it passes checks.",
+  "output": "Cut over to the new version with a blue-green deployment.",
+  "paraphrase": true
+ },
+ {
+  "term": "blue-green",
+  "user": "Keep the existing backend warm while the fresh stack stages, then point everything at the next one go once it passes checks.",
+  "output": "Cut over to the new version with a blue-green deployment.",
+  "paraphrase": true
+ },
+ {
+  "term": "blue-green",
+  "user": "Keep the current backend warm while the candidate stages, then point everything at the next one once it passes checks.",
+  "output": "Cut over to the new version with a blue-green deployment.",
+  "paraphrase": true
+ },
+ {
+  "term": "blue-green",
+  "user": "Keep the existing backend warm while the next single stages, then point everything at the new one once it passes checks.",
+  "output": "Cut over to the new version with a blue-green deployment.",
+  "paraphrase": true
+ },
+ {
+  "term": "blue-green",
+  "user": "Keep the previous backend warm while the next one stages, then point everything at the candidate one once it passes checks.",
+  "output": "Cut over to the new version with a blue-green deployment.",
+  "paraphrase": true
+ },
+ {
+  "term": "blue-green",
+  "user": "Keep the previous backend warm while the fresh stack stages, then point everything at the candidate go once it passes checks.",
+  "output": "Cut over to the new version with a blue-green deployment.",
+  "paraphrase": true
+ },
+ {
+  "term": "blue-green",
+  "user": "Keep the existing backend warm while the fresh stack stages, then point everything at the fresh one once it passes checks.",
+  "output": "Cut over to the new version with a blue-green deployment.",
+  "paraphrase": true
+ },
+ {
+  "term": "blue-green",
+  "user": "Keep the existing backend warm while the fresh single stages, then point everything at the new single once it passes checks.",
+  "output": "Cut over to the new version with a blue-green deployment.",
+  "paraphrase": true
+ },
+ {
+  "term": "blue-green",
+  "user": "Keep the existing backend warm while the candidate stages, then point everything at the fresh single once it passes checks.",
+  "output": "Cut over to the new version with a blue-green deployment.",
+  "paraphrase": true
+ },
+ {
+  "term": "blue-green",
+  "user": "Keep the existing backend warm while the fresh single go go stages, then point everything at the candidate once it passes checks.",
+  "output": "Cut over to the new version with a blue-green deployment.",
+  "paraphrase": true
+ },
+ {
+  "term": "blue-green",
+  "user": "Keep the old backend warm while the next single stages, then point everything at the new a single once it passes checks.",
+  "output": "Cut over to the new version with a blue-green deployment.",
+  "paraphrase": true
+ },
+ {
+  "term": "blue-green",
+  "user": "Keep the current backend warm while the next single stages, then point everything at the candidate once it passes checks.",
+  "output": "Cut over to the new version with a blue-green deployment.",
+  "paraphrase": true
+ },
+ {
+  "term": "blue-green",
+  "user": "Keep the existing backend warm while the fresh stack stages, then point everything at the candidate one once it passes checks.",
+  "output": "Cut over to the new version with a blue-green deployment.",
+  "paraphrase": true
+ },
+ {
+  "term": "blue-green",
+  "user": "Keep the existing backend warm while the candidate a single go stages, then point everything at the fresh stack once it passes checks.",
+  "output": "Cut over to the new version with a blue-green deployment.",
+  "paraphrase": true
+ },
+ {
+  "term": "blue-green",
+  "user": "Swap the whole fleet from the current container to the next one in one switch.",
+  "output": "Move the whole fleet in one go with a blue-green deployment.",
+  "paraphrase": false
+ },
+ {
+  "term": "blue-green",
+  "user": "Swap the whole fleet from the current container to the next one in one cut over.",
+  "output": "Move the whole fleet in one go with a blue-green deployment.",
+  "paraphrase": true
+ },
+ {
+  "term": "blue-green",
+  "user": "Swap the whole fleet from the current container to the next one go in one point the load.",
+  "output": "Move the whole fleet in one go with a blue-green deployment.",
+  "paraphrase": true
+ },
+ {
+  "term": "blue-green",
+  "user": "Swap the whole fleet from the current container to the next single in single cut over.",
+  "output": "Move the whole fleet in one go with a blue-green deployment.",
+  "paraphrase": true
+ },
+ {
+  "term": "blue-green",
+  "user": "Swap the whole fleet from the current container to the next one go go in one point the load.",
+  "output": "Move the whole fleet in one go with a blue-green deployment.",
+  "paraphrase": true
+ },
+ {
+  "term": "blue-green",
+  "user": "Swap the whole fleet from the current container to the next single in a single switch.",
+  "output": "Move the whole fleet in one go with a blue-green deployment.",
+  "paraphrase": true
+ },
+ {
+  "term": "blue-green",
+  "user": "Swap the whole fleet from the current container to the next single in one redirect.",
+  "output": "Move the whole fleet in one go with a blue-green deployment.",
+  "paraphrase": true
+ },
+ {
+  "term": "blue-green",
+  "user": "Swap the whole fleet from the current container to the next one in one redirect.",
+  "output": "Move the whole fleet in one go with a blue-green deployment.",
+  "paraphrase": true
+ },
+ {
+  "term": "blue-green",
+  "user": "Swap the whole fleet from the current container to the next single in one go flip.",
+  "output": "Move the whole fleet in one go with a blue-green deployment.",
+  "paraphrase": true
+ },
+ {
+  "term": "blue-green",
+  "user": "Swap the whole fleet from the current container to the next a single in one redirect.",
+  "output": "Move the whole fleet in one go with a blue-green deployment.",
+  "paraphrase": true
+ },
+ {
+  "term": "blue-green",
+  "user": "Swap the whole fleet from the current container to the next one go go in one redirect.",
+  "output": "Move the whole fleet in one go with a blue-green deployment.",
+  "paraphrase": true
+ },
+ {
+  "term": "blue-green",
+  "user": "Swap the whole fleet from the current container to the next single in one go redirect.",
+  "output": "Move the whole fleet in one go with a blue-green deployment.",
+  "paraphrase": true
+ },
+ {
+  "term": "blue-green",
+  "user": "Swap the whole fleet from the current container to the next a single in a single cut over.",
+  "output": "Move the whole fleet in one go with a blue-green deployment.",
+  "paraphrase": true
+ },
+ {
+  "term": "blue-green",
+  "user": "Swap the whole fleet from the current container to the next single in one cut over.",
+  "output": "Move the whole fleet in one go with a blue-green deployment.",
+  "paraphrase": true
+ },
+ {
+  "term": "blue-green",
+  "user": "Swap the whole fleet from the current container to the next a single in one switch.",
+  "output": "Move the whole fleet in one go with a blue-green deployment.",
+  "paraphrase": true
+ },
+ {
+  "term": "blue-green",
+  "user": "Swap the whole fleet from the current container to the next one in one point all clients.",
+  "output": "Move the whole fleet in one go with a blue-green deployment.",
+  "paraphrase": true
+ },
+ {
+  "term": "blue-green",
+  "user": "Swap the whole fleet from the current container to the next single in one point the load.",
+  "output": "Move the whole fleet in one go with a blue-green deployment.",
+  "paraphrase": true
+ },
+ {
+  "term": "blue-green",
+  "user": "Swap the whole fleet from the current container to the next a single in a single redirect.",
+  "output": "Move the whole fleet in one go with a blue-green deployment.",
+  "paraphrase": true
+ },
+ {
+  "term": "blue-green",
+  "user": "Swap the whole fleet from the current container to the next a single go in one point traffic.",
+  "output": "Move the whole fleet in one go with a blue-green deployment.",
+  "paraphrase": true
+ },
+ {
+  "term": "blue-green",
+  "user": "Swap the whole fleet from the current container to the next single go in one point the users.",
+  "output": "Move the whole fleet in one go with a blue-green deployment.",
+  "paraphrase": true
+ },
+ {
+  "term": "blue-green",
+  "user": "Run two versions side by side and only send real traffic to the new one after it passes.",
+  "output": "Run the new version alongside the old and cut over with a blue-green deployment.",
+  "paraphrase": false
+ },
+ {
+  "term": "blue-green",
+  "user": "Run two versions side by side and only send real requests to the fresh a single after it passes.",
+  "output": "Run the new version alongside the old and cut over with a blue-green deployment.",
+  "paraphrase": true
+ },
+ {
+  "term": "blue-green",
+  "user": "Run two versions side by side and only send real the load to the fresh stack after it passes.",
+  "output": "Run the new version alongside the old and cut over with a blue-green deployment.",
+  "paraphrase": true
+ },
+ {
+  "term": "blue-green",
+  "user": "Run two versions side by side and only send real the load to the next a single after it passes.",
+  "output": "Run the new version alongside the old and cut over with a blue-green deployment.",
+  "paraphrase": true
+ },
+ {
+  "term": "blue-green",
+  "user": "Run two versions side by side and only send real all clients to the next one after it passes.",
+  "output": "Run the new version alongside the old and cut over with a blue-green deployment.",
+  "paraphrase": true
+ },
+ {
+  "term": "blue-green",
+  "user": "Run two versions side by side and only send real the users to the fresh single go after it passes.",
+  "output": "Run the new version alongside the old and cut over with a blue-green deployment.",
+  "paraphrase": true
+ },
+ {
+  "term": "blue-green",
+  "user": "Run two versions side by side and only send real all clients to the fresh one after it passes.",
+  "output": "Run the new version alongside the old and cut over with a blue-green deployment.",
+  "paraphrase": true
+ },
+ {
+  "term": "blue-green",
+  "user": "Run two versions side by side and only send real the users to the fresh one after it passes.",
+  "output": "Run the new version alongside the old and cut over with a blue-green deployment.",
+  "paraphrase": true
+ },
+ {
+  "term": "blue-green",
+  "user": "Run two versions side by side and only send real all clients to the fresh stack go after it passes.",
+  "output": "Run the new version alongside the old and cut over with a blue-green deployment.",
+  "paraphrase": true
+ },
+ {
+  "term": "blue-green",
+  "user": "Run two versions side by side and only send real the users to the next one go go after it passes.",
+  "output": "Run the new version alongside the old and cut over with a blue-green deployment.",
+  "paraphrase": true
+ },
+ {
+  "term": "blue-green",
+  "user": "Run two versions side by side and only send real traffic to the fresh one after it passes.",
+  "output": "Run the new version alongside the old and cut over with a blue-green deployment.",
+  "paraphrase": true
+ },
+ {
+  "term": "blue-green",
+  "user": "Run two versions side by side and only send real all clients to the fresh stack after it passes.",
+  "output": "Run the new version alongside the old and cut over with a blue-green deployment.",
+  "paraphrase": true
+ },
+ {
+  "term": "blue-green",
+  "user": "Run two versions side by side and only send real all clients to the candidate a single after it passes.",
+  "output": "Run the new version alongside the old and cut over with a blue-green deployment.",
+  "paraphrase": true
+ },
+ {
+  "term": "blue-green",
+  "user": "Run two versions side by side and only send real the load to the fresh stack go after it passes.",
+  "output": "Run the new version alongside the old and cut over with a blue-green deployment.",
+  "paraphrase": true
+ },
+ {
+  "term": "blue-green",
+  "user": "Run two versions side by side and only send real all clients to the candidate a single go after it passes.",
+  "output": "Run the new version alongside the old and cut over with a blue-green deployment.",
+  "paraphrase": true
+ },
+ {
+  "term": "blue-green",
+  "user": "Run two versions side by side and only send real requests to the next a single go after it passes.",
+  "output": "Run the new version alongside the old and cut over with a blue-green deployment.",
+  "paraphrase": true
+ },
+ {
+  "term": "blue-green",
+  "user": "Run two versions side by side and only send real the users to the next single after it passes.",
+  "output": "Run the new version alongside the old and cut over with a blue-green deployment.",
+  "paraphrase": true
+ },
+ {
+  "term": "blue-green",
+  "user": "Run two versions side by side and only send real the users to the new a single go after it passes.",
+  "output": "Run the new version alongside the old and cut over with a blue-green deployment.",
+  "paraphrase": true
+ },
+ {
+  "term": "blue-green",
+  "user": "Run two versions side by side and only send real all clients to the candidate single after it passes.",
+  "output": "Run the new version alongside the old and cut over with a blue-green deployment.",
+  "paraphrase": true
+ },
+ {
+  "term": "blue-green",
+  "user": "Run two versions side by side and only send real requests to the new a single after it passes.",
+  "output": "Run the new version alongside the old and cut over with a blue-green deployment.",
+  "paraphrase": true
+ },
+ {
+  "term": "blue-green",
+  "user": "I want zero-downtime releases, so stand up the new side and flip when it is healthy.",
+  "output": "Do a blue-green release with zero downtime.",
+  "paraphrase": false
+ },
+ {
+  "term": "blue-green",
+  "user": "I want zero-downtime releases, so stand up the candidate side and flip when it is healthy.",
+  "output": "Do a blue-green release with zero downtime.",
+  "paraphrase": true
+ },
+ {
+  "term": "blue-green",
+  "user": "I want zero-downtime deploys, so stand up the candidate side and flip when it is healthy.",
+  "output": "Do a blue-green release with zero downtime.",
+  "paraphrase": true
+ },
+ {
+  "term": "blue-green",
+  "user": "I want zero-downtime builds, so stand up the candidate side and flip when it is healthy.",
+  "output": "Do a blue-green release with zero downtime.",
+  "paraphrase": true
+ },
+ {
+  "term": "blue-green",
+  "user": "I want zero-downtime builds, so stand up the new side and flip when it is healthy.",
+  "output": "Do a blue-green release with zero downtime.",
+  "paraphrase": true
+ },
+ {
+  "term": "blue-green",
+  "user": "I want zero-downtime versions, so stand up the fresh side and flip when it is healthy.",
+  "output": "Do a blue-green release with zero downtime.",
+  "paraphrase": true
+ },
+ {
+  "term": "blue-green",
+  "user": "I want zero-downtime releases, so stand up the next side and flip when it is healthy.",
+  "output": "Do a blue-green release with zero downtime.",
+  "paraphrase": true
+ },
+ {
+  "term": "blue-green",
+  "user": "I want zero-downtime builds, so stand up the next side and flip when it is healthy.",
+  "output": "Do a blue-green release with zero downtime.",
+  "paraphrase": true
+ },
+ {
+  "term": "blue-green",
+  "user": "I want zero-downtime deploys, so stand up the fresh side and flip when it is healthy.",
+  "output": "Do a blue-green release with zero downtime.",
+  "paraphrase": true
+ },
+ {
+  "term": "blue-green",
+  "user": "I want zero-downtime builds, so stand up the fresh side and flip when it is healthy.",
+  "output": "Do a blue-green release with zero downtime.",
+  "paraphrase": true
+ },
+ {
+  "term": "blue-green",
+  "user": "I want zero-downtime versions, so stand up the next side and flip when it is healthy.",
+  "output": "Do a blue-green release with zero downtime.",
+  "paraphrase": true
+ },
+ {
+  "term": "blue-green",
+  "user": "I want zero-downtime deploys, so stand up the next side and flip when it is healthy.",
+  "output": "Do a blue-green release with zero downtime.",
+  "paraphrase": true
+ },
+ {
+  "term": "blue-green",
+  "user": "Bring up the next version beside the current one and, once it is healthy, move the load balancer across without dropping a request.",
+  "output": "Cut the load balancer over with a blue-green release.",
+  "paraphrase": false
+ },
+ {
+  "term": "blue-green",
+  "user": "Bring up the next version beside the current a single and, once it is healthy, move the load balancer across without dropping a request.",
+  "output": "Cut the load balancer over with a blue-green release.",
+  "paraphrase": true
+ },
+ {
+  "term": "blue-green",
+  "user": "Bring up the next version beside the current single and, once it is healthy, move the load balancer across without dropping a request.",
+  "output": "Cut the load balancer over with a blue-green release.",
+  "paraphrase": true
+ },
+ {
+  "term": "blue-green",
+  "user": "Bring up the next version beside the current a single go and, once it is healthy, move the load balancer across without dropping a request.",
+  "output": "Cut the load balancer over with a blue-green release.",
+  "paraphrase": true
+ },
+ {
+  "term": "blue-green",
+  "user": "Bring up the next version beside the current single go and, once it is healthy, move the load balancer across without dropping a request.",
+  "output": "Cut the load balancer over with a blue-green release.",
+  "paraphrase": true
+ },
+ {
+  "term": "blue-green",
+  "user": "Launch a second instance of everything, soak it, then move all real users onto it in one go.",
+  "output": "Stand up a second stack and flip everyone over with a blue-green deploy.",
+  "paraphrase": false
+ },
+ {
+  "term": "blue-green",
+  "user": "Launch a second instance of everything, soak it, then move all real users onto it in a single go.",
+  "output": "Stand up a second stack and flip everyone over with a blue-green deploy.",
+  "paraphrase": true
+ },
+ {
+  "term": "blue-green",
+  "user": "Launch a second instance of everything, soak it, then move all real users onto it in one go go.",
+  "output": "Stand up a second stack and flip everyone over with a blue-green deploy.",
+  "paraphrase": true
+ },
+ {
+  "term": "blue-green",
+  "user": "Launch a second instance of everything, soak it, then move all real users onto it in single go.",
+  "output": "Stand up a second stack and flip everyone over with a blue-green deploy.",
+  "paraphrase": true
+ },
+ {
+  "term": "blue-green",
+  "user": "Launch a second instance of everything, soak it, then move all real users onto it in a single go go.",
+  "output": "Stand up a second stack and flip everyone over with a blue-green deploy.",
+  "paraphrase": true
+ },
+ {
+  "term": "blue-green",
+  "user": "Launch a second instance of everything, soak it, then move all real users onto it in single go go.",
+  "output": "Stand up a second stack and flip everyone over with a blue-green deploy.",
+  "paraphrase": true
+ },
+ {
+  "term": "blue-green",
+  "user": "Launch a second instance of everything, soak it, then move all real users onto it in one go go go.",
+  "output": "Stand up a second stack and flip everyone over with a blue-green deploy.",
+  "paraphrase": true
+ },
+ {
+  "term": "blue-green",
+  "user": "Have the new stack idle-ready and move everyone over without a blip.",
+  "output": "Blue-green switch the whole fleet without downtime.",
+  "paraphrase": false
+ },
+ {
+  "term": "blue-green",
+  "user": "Have the new stack idle-ready and move everysingle over without a blip.",
+  "output": "Blue-green switch the whole fleet without downtime.",
+  "paraphrase": true
+ },
+ {
+  "term": "blue-green",
+  "user": "Have the candidate stack idle-ready and move everya single over without a blip.",
+  "output": "Blue-green switch the whole fleet without downtime.",
+  "paraphrase": true
+ },
+ {
+  "term": "blue-green",
+  "user": "Have the next stack idle-ready and move everysingle over without a blip.",
+  "output": "Blue-green switch the whole fleet without downtime.",
+  "paraphrase": true
+ },
+ {
+  "term": "blue-green",
+  "user": "Have the fresh stack idle-ready and move everysingle over without a blip.",
+  "output": "Blue-green switch the whole fleet without downtime.",
+  "paraphrase": true
+ },
+ {
+  "term": "blue-green",
+  "user": "Have the new stack idle-ready and move everya single over without a blip.",
+  "output": "Blue-green switch the whole fleet without downtime.",
+  "paraphrase": true
+ },
+ {
+  "term": "blue-green",
+  "user": "Have the next stack idle-ready and move everya single over without a blip.",
+  "output": "Blue-green switch the whole fleet without downtime.",
+  "paraphrase": true
+ },
+ {
+  "term": "blue-green",
+  "user": "Have the next stack idle-ready and move everyone go over without a blip.",
+  "output": "Blue-green switch the whole fleet without downtime.",
+  "paraphrase": true
+ },
+ {
+  "term": "blue-green",
+  "user": "Have the candidate stack idle-ready and move everysingle over without a blip.",
+  "output": "Blue-green switch the whole fleet without downtime.",
+  "paraphrase": true
+ },
+ {
+  "term": "blue-green",
+  "user": "Have the fresh stack idle-ready and move everyone go over without a blip.",
+  "output": "Blue-green switch the whole fleet without downtime.",
+  "paraphrase": true
+ },
+ {
+  "term": "blue-green",
+  "user": "Have the fresh stack idle-ready and move everysingle go go over without a blip.",
+  "output": "Blue-green switch the whole fleet without downtime.",
+  "paraphrase": true
+ },
+ {
+  "term": "blue-green",
+  "user": "Have the fresh stack idle-ready and move everya single over without a blip.",
+  "output": "Blue-green switch the whole fleet without downtime.",
+  "paraphrase": true
+ },
+ {
+  "term": "blue-green",
+  "user": "The rollout should leave the existing version serving until the candidate proves itself, then swap instantly.",
+  "output": "Do a blue-green rollout so the old release keeps serving during cutoff.",
+  "paraphrase": true
+ },
+ {
+  "term": "blue-green",
+  "user": "The rollout should leave the old build serving until the next a single proves itself, then swap instantly.",
+  "output": "Do a blue-green rollout so the old release keeps serving during cutoff.",
+  "paraphrase": true
+ },
+ {
+  "term": "blue-green",
+  "user": "The rollout should leave the existing version serving until the candidate single proves itself, then swap instantly.",
+  "output": "Do a blue-green rollout so the old release keeps serving during cutoff.",
+  "paraphrase": true
+ },
+ {
+  "term": "blue-green",
+  "user": "The rollout should leave the existing deploy serving until the fresh single proves itself, then swap instantly.",
+  "output": "Do a blue-green rollout so the old release keeps serving during cutoff.",
+  "paraphrase": true
+ },
+ {
+  "term": "blue-green",
+  "user": "The rollout should leave the existing version serving until the next one proves itself, then swap instantly.",
+  "output": "Do a blue-green rollout so the old release keeps serving during cutoff.",
+  "paraphrase": true
+ },
+ {
+  "term": "blue-green",
+  "user": "The rollout should leave the old deploy serving until the fresh stack proves itself, then swap instantly.",
+  "output": "Do a blue-green rollout so the old release keeps serving during cutoff.",
+  "paraphrase": true
+ },
+ {
+  "term": "blue-green",
+  "user": "The rollout should leave the current deploy serving until the candidate one go proves itself, then swap instantly.",
+  "output": "Do a blue-green rollout so the old release keeps serving during cutoff.",
+  "paraphrase": true
+ },
+ {
+  "term": "blue-green",
+  "user": "The rollout should leave the existing version serving until the next single go proves itself, then swap instantly.",
+  "output": "Do a blue-green rollout so the old release keeps serving during cutoff.",
+  "paraphrase": true
+ },
+ {
+  "term": "blue-green",
+  "user": "The rollout should leave the existing deploy serving until the fresh stack proves itself, then swap instantly.",
+  "output": "Do a blue-green rollout so the old release keeps serving during cutoff.",
+  "paraphrase": true
+ },
+ {
+  "term": "blue-green",
+  "user": "The rollout should leave the current deploy serving until the fresh a single proves itself, then swap instantly.",
+  "output": "Do a blue-green rollout so the old release keeps serving during cutoff.",
+  "paraphrase": true
+ },
+ {
+  "term": "blue-green",
+  "user": "The rollout should leave the existing deploy serving until the candidate one go go proves itself, then swap instantly.",
+  "output": "Do a blue-green rollout so the old release keeps serving during cutoff.",
+  "paraphrase": true
+ },
+ {
+  "term": "blue-green",
+  "user": "The rollout should leave the current build serving until the fresh stack go proves itself, then swap instantly.",
+  "output": "Do a blue-green rollout so the old release keeps serving during cutoff.",
+  "paraphrase": true
+ },
+ {
+  "term": "blue-green",
+  "user": "The rollout should leave the old version serving until the candidate proves itself, then swap instantly.",
+  "output": "Do a blue-green rollout so the old release keeps serving during cutoff.",
+  "paraphrase": true
+ },
+ {
+  "term": "blue-green",
+  "user": "The rollout should leave the previous deploy serving until the candidate a single proves itself, then swap instantly.",
+  "output": "Do a blue-green rollout so the old release keeps serving during cutoff.",
+  "paraphrase": true
+ },
+ {
+  "term": "blue-green",
+  "user": "The rollout should leave the previous version serving until the fresh stack proves itself, then swap instantly.",
+  "output": "Do a blue-green rollout so the old release keeps serving during cutoff.",
+  "paraphrase": true
+ },
+ {
+  "term": "blue-green",
+  "user": "The rollout should leave the old deploy serving until the next one proves itself, then swap instantly.",
+  "output": "Do a blue-green rollout so the old release keeps serving during cutoff.",
+  "paraphrase": true
+ },
+ {
+  "term": "blue-green",
+  "user": "The rollout should leave the current release serving until the new single proves itself, then swap instantly.",
+  "output": "Do a blue-green rollout so the old release keeps serving during cutoff.",
+  "paraphrase": true
+ },
+ {
+  "term": "blue-green",
+  "user": "The rollout should leave the old build serving until the fresh a single proves itself, then swap instantly.",
+  "output": "Do a blue-green rollout so the old release keeps serving during cutoff.",
+  "paraphrase": true
+ },
+ {
+  "term": "blue-green",
+  "user": "Prepare both generations and redirect the clients to the promoted one at the press of a button.",
+  "output": "Blue-green promote the new generation with a single switch.",
+  "paraphrase": false
+ },
+ {
+  "term": "blue-green",
+  "user": "Prepare both generations and redirect the clients to the promoted a single go at the press of a button.",
+  "output": "Blue-green promote the new generation with a single switch.",
+  "paraphrase": true
+ },
+ {
+  "term": "blue-green",
+  "user": "Prepare both generations and redirect the clients to the promoted single at the press of a button.",
+  "output": "Blue-green promote the new generation with a single switch.",
+  "paraphrase": true
+ },
+ {
+  "term": "blue-green",
+  "user": "Prepare both generations and redirect the clients to the promoted one go at the press of a button.",
+  "output": "Blue-green promote the new generation with a single switch.",
+  "paraphrase": true
+ },
+ {
+  "term": "blue-green",
+  "user": "Prepare both generations and redirect the clients to the promoted a single at the press of a button.",
+  "output": "Blue-green promote the new generation with a single switch.",
+  "paraphrase": true
+ },
+ {
+  "term": "blue-green",
+  "user": "Prepare both generations and redirect the clients to the promoted single go at the press of a button.",
+  "output": "Blue-green promote the new generation with a single switch.",
+  "paraphrase": true
+ },
+ {
+  "term": "blue-green",
+  "user": "Prepare both generations and redirect the clients to the promoted one go go at the press of a button.",
+  "output": "Blue-green promote the new generation with a single switch.",
+  "paraphrase": true
+ },
+ {
+  "term": "rate-limit",
+  "user": "Limit login requests per minute to prevent the server from being overloaded.",
+  "output": "Rate-limit the login endpoint.",
+  "paraphrase": false
+ },
+ {
+  "term": "rate-limit",
+  "user": "Limit refresh calls per hour to prevent the server from being overloaded.",
+  "output": "Rate-limit the login endpoint.",
+  "paraphrase": true
+ },
+ {
+  "term": "rate-limit",
+  "user": "Limit webhook attempts per day to prevent the server from being overloaded.",
+  "output": "Rate-limit the login endpoint.",
+  "paraphrase": true
+ },
+ {
+  "term": "rate-limit",
+  "user": "Limit checkout calls per day to prevent the server from being overloaded.",
+  "output": "Rate-limit the login endpoint.",
+  "paraphrase": true
+ },
+ {
+  "term": "rate-limit",
+  "user": "Limit webhook requests per second to prevent the server from being overloaded.",
+  "output": "Rate-limit the login endpoint.",
+  "paraphrase": true
+ },
+ {
+  "term": "rate-limit",
+  "user": "Limit login attempts per hour to prevent the server from being overloaded.",
+  "output": "Rate-limit the login endpoint.",
+  "paraphrase": true
+ },
+ {
+  "term": "rate-limit",
+  "user": "Limit checkout attempts per day to prevent the server from being overloaded.",
+  "output": "Rate-limit the login endpoint.",
+  "paraphrase": true
+ },
+ {
+  "term": "rate-limit",
+  "user": "Limit upload attempts per hour to prevent the server from being overloaded.",
+  "output": "Rate-limit the login endpoint.",
+  "paraphrase": true
+ },
+ {
+  "term": "rate-limit",
+  "user": "Limit search hits a second a second per second to prevent the server from being overloaded.",
+  "output": "Rate-limit the login endpoint.",
+  "paraphrase": true
+ },
+ {
+  "term": "rate-limit",
+  "user": "Limit upload attempts a second per second to prevent the server from being overloaded.",
+  "output": "Rate-limit the login endpoint.",
+  "paraphrase": true
+ },
+ {
+  "term": "rate-limit",
+  "user": "Limit webhook requests a second a second per second to prevent the server from being overloaded.",
+  "output": "Rate-limit the login endpoint.",
+  "paraphrase": true
+ },
+ {
+  "term": "rate-limit",
+  "user": "Limit search hits per second to prevent the server from being overloaded.",
+  "output": "Rate-limit the login endpoint.",
+  "paraphrase": true
+ },
+ {
+  "term": "rate-limit",
+  "user": "Limit upload calls per minute to prevent the server from being overloaded.",
+  "output": "Rate-limit the login endpoint.",
+  "paraphrase": true
+ },
+ {
+  "term": "rate-limit",
+  "user": "Limit search calls per second to prevent the server from being overloaded.",
+  "output": "Rate-limit the login endpoint.",
+  "paraphrase": true
+ },
+ {
+  "term": "rate-limit",
+  "user": "Limit search calls a second per minute to prevent the server from being overloaded.",
+  "output": "Rate-limit the login endpoint.",
+  "paraphrase": true
+ },
+ {
+  "term": "rate-limit",
+  "user": "Limit webhook requests a second per second to prevent the server from being overloaded.",
+  "output": "Rate-limit the login endpoint.",
+  "paraphrase": true
+ },
+ {
+  "term": "rate-limit",
+  "user": "Limit search calls a second per hour to prevent the server from being overloaded.",
+  "output": "Rate-limit the login endpoint.",
+  "paraphrase": true
+ },
+ {
+  "term": "rate-limit",
+  "user": "Limit webhook hits per day to prevent the server from being overloaded.",
+  "output": "Rate-limit the login endpoint.",
+  "paraphrase": true
+ },
+ {
+  "term": "rate-limit",
+  "user": "Limit search attempts per second to prevent the server from being overloaded.",
+  "output": "Rate-limit the login endpoint.",
+  "paraphrase": true
+ },
+ {
+  "term": "rate-limit",
+  "user": "Limit search requests per day to prevent the server from being overloaded.",
+  "output": "Rate-limit the login endpoint.",
+  "paraphrase": true
+ },
+ {
+  "term": "rate-limit",
+  "user": "Limit upload requests per day to prevent the server from being overloaded.",
+  "output": "Rate-limit the login endpoint.",
+  "paraphrase": true
+ },
+ {
+  "term": "rate-limit",
+  "user": "Stop this API key from calling the service more than a few times per hour.",
+  "output": "Throttle the client by API key.",
+  "paraphrase": false
+ },
+ {
+  "term": "rate-limit",
+  "user": "Stop this API key from calling the provider more than a few times per hour.",
+  "output": "Throttle the client by API key.",
+  "paraphrase": true
+ },
+ {
+  "term": "rate-limit",
+  "user": "Stop this API key from calling the handler more than a few times per hour.",
+  "output": "Throttle the client by API key.",
+  "paraphrase": true
+ },
+ {
+  "term": "rate-limit",
+  "user": "Stop this API key from calling the API more than a few times per hour.",
+  "output": "Throttle the client by API key.",
+  "paraphrase": true
+ },
+ {
+  "term": "rate-limit",
+  "user": "Stop this API key from calling the endpoint more than a few times per hour.",
+  "output": "Throttle the client by API key.",
+  "paraphrase": true
+ },
+ {
+  "term": "rate-limit",
+  "user": "Clients retry too fast and it makes things worse, add a delay after repeated failures.",
+  "output": "Rate-limit clients so retries back off after failures.",
+  "paraphrase": false
+ },
+ {
+  "term": "rate-limit",
+  "user": "Clients retry way too fast and it makes things worse, add a delay after repeated failures.",
+  "output": "Rate-limit clients so retries back off after failures.",
+  "paraphrase": true
+ },
+ {
+  "term": "rate-limit",
+  "user": "Clients retry way extremely fast and it makes things worse, add a delay after repeated failures.",
+  "output": "Rate-limit clients so retries back off after failures.",
+  "paraphrase": true
+ },
+ {
+  "term": "rate-limit",
+  "user": "Clients retry way way too fast and it makes things worse, add a delay after repeated failures.",
+  "output": "Rate-limit clients so retries back off after failures.",
+  "paraphrase": true
+ },
+ {
+  "term": "rate-limit",
+  "user": "Clients retry way overly fast and it makes things worse, add a delay after repeated failures.",
+  "output": "Rate-limit clients so retries back off after failures.",
+  "paraphrase": true
+ },
+ {
+  "term": "rate-limit",
+  "user": "The webhook endpoint should only accept ten hits a second, drop the rest.",
+  "output": "Set a 10-req/s cap on the webhook endpoint.",
+  "paraphrase": false
+ },
+ {
+  "term": "rate-limit",
+  "user": "The webhook handler should only accept ten hits a second, drop the rest.",
+  "output": "Set a 10-req/s cap on the webhook endpoint.",
+  "paraphrase": true
+ },
+ {
+  "term": "rate-limit",
+  "user": "The webhook route should only accept ten hits a second, drop the rest.",
+  "output": "Set a 10-req/s cap on the webhook endpoint.",
+  "paraphrase": true
+ },
+ {
+  "term": "rate-limit",
+  "user": "The webhook API should only accept ten hits a second, drop the rest.",
+  "output": "Set a 10-req/s cap on the webhook endpoint.",
+  "paraphrase": true
+ },
+ {
+  "term": "rate-limit",
+  "user": "The webhook provider should only accept ten hits a second, drop the rest.",
+  "output": "Set a 10-req/s cap on the webhook endpoint.",
+  "paraphrase": true
+ },
+ {
+  "term": "rate-limit",
+  "user": "The webhook service should only accept ten hits a second, drop the rest.",
+  "output": "Set a 10-req/s cap on the webhook endpoint.",
+  "paraphrase": true
+ },
+ {
+  "term": "rate-limit",
+  "user": "A bot is hammering the checkout, put a per-minute ceiling on it.",
+  "output": "Rate-limit the checkout by minute.",
+  "paraphrase": false
+ },
+ {
+  "term": "rate-limit",
+  "user": "Users can refresh ten times a second, allow fewer to protect the service.",
+  "output": "Throttle the refresh endpoint.",
+  "paraphrase": false
+ },
+ {
+  "term": "rate-limit",
+  "user": "Users can refresh ten times a second, allow fewer to protect the provider.",
+  "output": "Throttle the refresh endpoint.",
+  "paraphrase": true
+ },
+ {
+  "term": "rate-limit",
+  "user": "Users can refresh ten times a second, allow fewer to protect the API.",
+  "output": "Throttle the refresh endpoint.",
+  "paraphrase": true
+ },
+ {
+  "term": "rate-limit",
+  "user": "Users can refresh ten times a second, allow fewer to protect the handler.",
+  "output": "Throttle the refresh endpoint.",
+  "paraphrase": true
+ },
+ {
+  "term": "rate-limit",
+  "user": "The upload endpoint has no cap, anyone can flood it, add a request budget.",
+  "output": "Add a rate cap to the upload endpoint.",
+  "paraphrase": false
+ },
+ {
+  "term": "rate-limit",
+  "user": "The upload API has no cap, anyone can flood it, add a request budget.",
+  "output": "Add a rate cap to the upload endpoint.",
+  "paraphrase": true
+ },
+ {
+  "term": "rate-limit",
+  "user": "The upload API has no max out, anyone can flood it, add a request budget.",
+  "output": "Add a rate cap to the upload endpoint.",
+  "paraphrase": true
+ },
+ {
+  "term": "rate-limit",
+  "user": "The upload endpoint has no ceiling, anyone can flood it, add a request budget.",
+  "output": "Add a rate cap to the upload endpoint.",
+  "paraphrase": true
+ },
+ {
+  "term": "rate-limit",
+  "user": "The upload route has no ceiling, anyone can flood it, add a request budget.",
+  "output": "Add a rate cap to the upload endpoint.",
+  "paraphrase": true
+ },
+ {
+  "term": "rate-limit",
+  "user": "The upload API has no ceiling, anyone can flood it, add a request budget.",
+  "output": "Add a rate cap to the upload endpoint.",
+  "paraphrase": true
+ },
+ {
+  "term": "rate-limit",
+  "user": "The upload API has no limit, anyone can flood it, add a request budget.",
+  "output": "Add a rate cap to the upload endpoint.",
+  "paraphrase": true
+ },
+ {
+  "term": "rate-limit",
+  "user": "The upload route has no limit, anyone can flood it, add a request budget.",
+  "output": "Add a rate cap to the upload endpoint.",
+  "paraphrase": true
+ },
+ {
+  "term": "rate-limit",
+  "user": "The upload provider has no cap, anyone can flood it, add a request budget.",
+  "output": "Add a rate cap to the upload endpoint.",
+  "paraphrase": true
+ },
+ {
+  "term": "rate-limit",
+  "user": "The upload service has no ceiling, anyone can flood it, add a request budget.",
+  "output": "Add a rate cap to the upload endpoint.",
+  "paraphrase": true
+ },
+ {
+  "term": "rate-limit",
+  "user": "The upload route has no budget, anyone can flood it, add a request budget.",
+  "output": "Add a rate cap to the upload endpoint.",
+  "paraphrase": true
+ },
+ {
+  "term": "rate-limit",
+  "user": "The upload route has no max out, anyone can flood it, add a request budget.",
+  "output": "Add a rate cap to the upload endpoint.",
+  "paraphrase": true
+ },
+ {
+  "term": "rate-limit",
+  "user": "The upload handler has no limit, anyone can flood it, add a request budget.",
+  "output": "Add a rate cap to the upload endpoint.",
+  "paraphrase": true
+ },
+ {
+  "term": "rate-limit",
+  "user": "The upload handler has no cap, anyone can flood it, add a request budget.",
+  "output": "Add a rate cap to the upload endpoint.",
+  "paraphrase": true
+ },
+ {
+  "term": "rate-limit",
+  "user": "The upload API has no budget, anyone can flood it, add a request budget.",
+  "output": "Add a rate cap to the upload endpoint.",
+  "paraphrase": true
+ },
+ {
+  "term": "rate-limit",
+  "user": "The upload endpoint has no limit, anyone can flood it, add a request budget.",
+  "output": "Add a rate cap to the upload endpoint.",
+  "paraphrase": true
+ },
+ {
+  "term": "rate-limit",
+  "user": "Our workers keep calling the third-party vendor way too often, so bound how many times per hour our code may hit it.",
+  "output": "Rate-limit how often our code calls the vendor.",
+  "paraphrase": true
+ },
+ {
+  "term": "rate-limit",
+  "user": "Our workers keep calling the third-party vendor way too often, so bound how many times per minute our code may hit it.",
+  "output": "Rate-limit how often our code calls the vendor.",
+  "paraphrase": true
+ },
+ {
+  "term": "rate-limit",
+  "user": "Our workers keep calling the third-party vendor too often, so bound how many times per day our code may hit it.",
+  "output": "Rate-limit how often our code calls the vendor.",
+  "paraphrase": true
+ },
+ {
+  "term": "rate-limit",
+  "user": "Our workers keep calling the third-party vendor extremely often, so bound how many times per day our code may hit it.",
+  "output": "Rate-limit how often our code calls the vendor.",
+  "paraphrase": true
+ },
+ {
+  "term": "rate-limit",
+  "user": "Our workers keep calling the third-party vendor extremely often, so bound how many times per second our code may hit it.",
+  "output": "Rate-limit how often our code calls the vendor.",
+  "paraphrase": true
+ },
+ {
+  "term": "rate-limit",
+  "user": "Our workers keep calling the third-party vendor extremely often, so bound how many times per hour our code may hit it.",
+  "output": "Rate-limit how often our code calls the vendor.",
+  "paraphrase": true
+ },
+ {
+  "term": "rate-limit",
+  "user": "Our workers keep calling the third-party vendor way extremely often, so bound how many times per second our code may hit it.",
+  "output": "Rate-limit how often our code calls the vendor.",
+  "paraphrase": true
+ },
+ {
+  "term": "rate-limit",
+  "user": "Our workers keep calling the third-party vendor way too often, so bound how many times per second our code may hit it.",
+  "output": "Rate-limit how often our code calls the vendor.",
+  "paraphrase": true
+ },
+ {
+  "term": "rate-limit",
+  "user": "Our workers keep calling the third-party vendor overly often, so bound how many times per hour our code may hit it.",
+  "output": "Rate-limit how often our code calls the vendor.",
+  "paraphrase": true
+ },
+ {
+  "term": "rate-limit",
+  "user": "Our workers keep calling the third-party vendor way overly often, so bound how many times per day our code may hit it.",
+  "output": "Rate-limit how often our code calls the vendor.",
+  "paraphrase": true
+ },
+ {
+  "term": "rate-limit",
+  "user": "Our workers keep calling the third-party vendor too often, so bound how many times per hour our code may hit it.",
+  "output": "Rate-limit how often our code calls the vendor.",
+  "paraphrase": true
+ },
+ {
+  "term": "rate-limit",
+  "user": "Our workers keep calling the third-party vendor way too often, so bound how many times per day our code may hit it.",
+  "output": "Rate-limit how often our code calls the vendor.",
+  "paraphrase": true
+ },
+ {
+  "term": "rate-limit",
+  "user": "The chat API allows way overly many messages per user per second, bring it down.",
+  "output": "Throttle the chat API per user.",
+  "paraphrase": true
+ },
+ {
+  "term": "rate-limit",
+  "user": "The chat API allows overly many messages per user per second, bring it down.",
+  "output": "Throttle the chat API per user.",
+  "paraphrase": true
+ },
+ {
+  "term": "rate-limit",
+  "user": "The chat API allows way way too many messages per user per second, bring it down.",
+  "output": "Throttle the chat API per user.",
+  "paraphrase": true
+ },
+ {
+  "term": "rate-limit",
+  "user": "The chat API allows extremely many messages per user per second, bring it down.",
+  "output": "Throttle the chat API per user.",
+  "paraphrase": true
+ },
+ {
+  "term": "rate-limit",
+  "user": "The chat API allows way extremely many messages per user per second, bring it down.",
+  "output": "Throttle the chat API per user.",
+  "paraphrase": true
+ },
+ {
+  "term": "rate-limit",
+  "user": "The polling loop hammers the metrics endpoint, slow it to once a minute.",
+  "output": "Rate-limit the metrics polling to once a minute.",
+  "paraphrase": false
+ },
+ {
+  "term": "rate-limit",
+  "user": "The polling loop hammers the metrics handler, slow it to once a minute.",
+  "output": "Rate-limit the metrics polling to once a minute.",
+  "paraphrase": true
+ },
+ {
+  "term": "rate-limit",
+  "user": "The polling loop hammers the metrics API, slow it to once a minute.",
+  "output": "Rate-limit the metrics polling to once a minute.",
+  "paraphrase": true
+ },
+ {
+  "term": "rate-limit",
+  "user": "The polling loop hammers the metrics route, slow it to once a minute.",
+  "output": "Rate-limit the metrics polling to once a minute.",
+  "paraphrase": true
+ },
+ {
+  "term": "cron",
+  "user": "Generate the report and email it automatically.",
+  "output": "Set up a cron job to generate and email the report.",
+  "paraphrase": false
+ },
+ {
+  "term": "cron",
+  "user": "Generate auto report and email it automatically.",
+  "output": "Set up a cron job to generate and email the report.",
+  "paraphrase": true
+ },
+ {
+  "term": "cron",
+  "user": "Generate auto purge and email it automatically.",
+  "output": "Set up a cron job to generate and email the report.",
+  "paraphrase": true
+ },
+ {
+  "term": "cron",
+  "user": "Generate our digest and email it automatically.",
+  "output": "Set up a cron job to generate and email the report.",
+  "paraphrase": true
+ },
+ {
+  "term": "cron",
+  "user": "Generate our purge and email it automatically.",
+  "output": "Set up a cron job to generate and email the report.",
+  "paraphrase": true
+ },
+ {
+  "term": "cron",
+  "user": "Generate auto backup and email it automatically.",
+  "output": "Set up a cron job to generate and email the report.",
+  "paraphrase": true
+ },
+ {
+  "term": "cron",
+  "user": "Generate our backup and email it automatically.",
+  "output": "Set up a cron job to generate and email the report.",
+  "paraphrase": true
+ },
+ {
+  "term": "cron",
+  "user": "Generate our sync and email it automatically.",
+  "output": "Set up a cron job to generate and email the report.",
+  "paraphrase": true
+ },
+ {
+  "term": "cron",
+  "user": "Generate auto sync and email it automatically.",
+  "output": "Set up a cron job to generate and email the report.",
+  "paraphrase": true
+ },
+ {
+  "term": "cron",
+  "user": "Generate the cleanup and email it automatically.",
+  "output": "Set up a cron job to generate and email the report.",
+  "paraphrase": true
+ },
+ {
+  "term": "cron",
+  "user": "Generate the purge and email it automatically.",
+  "output": "Set up a cron job to generate and email the report.",
+  "paraphrase": true
+ },
+ {
+  "term": "cron",
+  "user": "Generate auto cleanup and email it automatically.",
+  "output": "Set up a cron job to generate and email the report.",
+  "paraphrase": true
+ },
+ {
+  "term": "cron",
+  "user": "Every midnight, clean the temp files without anyone starting it.",
+  "output": "Schedule the cleanup to run at midnight.",
+  "paraphrase": false
+ },
+ {
+  "term": "cron",
+  "user": "Every midnight, clean auto temp files without anyone starting it.",
+  "output": "Schedule the cleanup to run at midnight.",
+  "paraphrase": true
+ },
+ {
+  "term": "cron",
+  "user": "Run the nightly backup at 2am each day on its own.",
+  "output": "Cron the nightly backup at 2am.",
+  "paraphrase": false
+ },
+ {
+  "term": "cron",
+  "user": "Run our every night backup at 2am each day on its own.",
+  "output": "Cron the nightly backup at 2am.",
+  "paraphrase": true
+ },
+ {
+  "term": "cron",
+  "user": "Run auto at night backup at 2am each day on its own.",
+  "output": "Cron the nightly backup at 2am.",
+  "paraphrase": true
+ },
+ {
+  "term": "cron",
+  "user": "Run the nightly at at backup at 2am each day on its own.",
+  "output": "Cron the nightly backup at 2am.",
+  "paraphrase": true
+ },
+ {
+  "term": "cron",
+  "user": "Run the every night backup at 2am each day on its own.",
+  "output": "Cron the nightly backup at 2am.",
+  "paraphrase": true
+ },
+ {
+  "term": "cron",
+  "user": "Run our at night backup at 2am each day on its own.",
+  "output": "Cron the nightly backup at 2am.",
+  "paraphrase": true
+ },
+ {
+  "term": "cron",
+  "user": "Run auto at night at backup at 2am each day on its own.",
+  "output": "Cron the nightly backup at 2am.",
+  "paraphrase": true
+ },
+ {
+  "term": "cron",
+  "user": "Run our nightly at backup at 2am each day on its own.",
+  "output": "Cron the nightly backup at 2am.",
+  "paraphrase": true
+ },
+ {
+  "term": "cron",
+  "user": "Run auto nightly at backup at 2am each day on its own.",
+  "output": "Cron the nightly backup at 2am.",
+  "paraphrase": true
+ },
+ {
+  "term": "cron",
+  "user": "The billing sync should fire by itself on the first of every month.",
+  "output": "Schedule the billing sync on the first of the month.",
+  "paraphrase": false
+ },
+ {
+  "term": "cron",
+  "user": "our billing sync should fire by itself on auto first of every month.",
+  "output": "Schedule the billing sync on the first of the month.",
+  "paraphrase": true
+ },
+ {
+  "term": "cron",
+  "user": "auto billing sync should fire by itself on auto first of every month.",
+  "output": "Schedule the billing sync on the first of the month.",
+  "paraphrase": true
+ },
+ {
+  "term": "cron",
+  "user": "the billing sync should fire by itself on the first of every month.",
+  "output": "Schedule the billing sync on the first of the month.",
+  "paraphrase": true
+ },
+ {
+  "term": "cron",
+  "user": "auto billing sync should fire by itself on the first of every month.",
+  "output": "Schedule the billing sync on the first of the month.",
+  "paraphrase": true
+ },
+ {
+  "term": "cron",
+  "user": "auto billing sync should fire by itself on our first of every month.",
+  "output": "Schedule the billing sync on the first of the month.",
+  "paraphrase": true
+ },
+ {
+  "term": "cron",
+  "user": "our billing sync should fire by itself on the first of every month.",
+  "output": "Schedule the billing sync on the first of the month.",
+  "paraphrase": true
+ },
+ {
+  "term": "cron",
+  "user": "Push the metrics to the server on a fixed timer instead of manually.",
+  "output": "Automate the metrics push with a scheduled timer.",
+  "paraphrase": false
+ },
+ {
+  "term": "cron",
+  "user": "Push our metrics to the server on a fixed timer instead of manually.",
+  "output": "Automate the metrics push with a scheduled timer.",
+  "paraphrase": true
+ },
+ {
+  "term": "cron",
+  "user": "Push our metrics to our server on a fixed timer instead of manually.",
+  "output": "Automate the metrics push with a scheduled timer.",
+  "paraphrase": true
+ },
+ {
+  "term": "cron",
+  "user": "Push auto metrics to auto server on a fixed timer instead of manually.",
+  "output": "Automate the metrics push with a scheduled timer.",
+  "paraphrase": true
+ },
+ {
+  "term": "cron",
+  "user": "Push auto metrics to our server on a fixed timer instead of manually.",
+  "output": "Automate the metrics push with a scheduled timer.",
+  "paraphrase": true
+ },
+ {
+  "term": "cron",
+  "user": "Push our metrics to auto server on a fixed timer instead of manually.",
+  "output": "Automate the metrics push with a scheduled timer.",
+  "paraphrase": true
+ },
+ {
+  "term": "cron",
+  "user": "Push auto metrics to the server on a fixed timer instead of manually.",
+  "output": "Automate the metrics push with a scheduled timer.",
+  "paraphrase": true
+ },
+ {
+  "term": "cron",
+  "user": "Refresh the auth token cache every twenty minutes unattended.",
+  "output": "Schedule the token refresh every twenty minutes.",
+  "paraphrase": false
+ },
+ {
+  "term": "cron",
+  "user": "Refresh auto auth token cache every twenty minutes unattended.",
+  "output": "Schedule the token refresh every twenty minutes.",
+  "paraphrase": true
+ },
+ {
+  "term": "cron",
+  "user": "Refresh our auth token cache every twenty minutes unattended.",
+  "output": "Schedule the token refresh every twenty minutes.",
+  "paraphrase": true
+ },
+ {
+  "term": "cron",
+  "user": "Every morning at 9, publish the daily digest without a human.",
+  "output": "Cron a daily digest at 9am.",
+  "paraphrase": false
+ },
+ {
+  "term": "cron",
+  "user": "Every morning at 9, publish auto daily digest without a human.",
+  "output": "Cron a daily digest at 9am.",
+  "paraphrase": true
+ },
+ {
+  "term": "cron",
+  "user": "The purge job should self-start at 3am nightly.",
+  "output": "Schedule the purge job nightly at 3am.",
+  "paraphrase": false
+ },
+ {
+  "term": "cron",
+  "user": "auto purge task should self-start at 3am nightly at.",
+  "output": "Schedule the purge job nightly at 3am.",
+  "paraphrase": true
+ },
+ {
+  "term": "cron",
+  "user": "auto purge workflow should self-start at 3am nightly at.",
+  "output": "Schedule the purge job nightly at 3am.",
+  "paraphrase": true
+ },
+ {
+  "term": "cron",
+  "user": "The purge task should self-start at 3am at night.",
+  "output": "Schedule the purge job nightly at 3am.",
+  "paraphrase": true
+ },
+ {
+  "term": "cron",
+  "user": "our purge workflow should self-start at 3am every night at.",
+  "output": "Schedule the purge job nightly at 3am.",
+  "paraphrase": true
+ },
+ {
+  "term": "cron",
+  "user": "our purge workflow should self-start at 3am nightly at.",
+  "output": "Schedule the purge job nightly at 3am.",
+  "paraphrase": true
+ },
+ {
+  "term": "cron",
+  "user": "our purge task should self-start at 3am nightly.",
+  "output": "Schedule the purge job nightly at 3am.",
+  "paraphrase": true
+ },
+ {
+  "term": "cron",
+  "user": "auto purge script should self-start at 3am at night.",
+  "output": "Schedule the purge job nightly at 3am.",
+  "paraphrase": true
+ },
+ {
+  "term": "cron",
+  "user": "our purge job should self-start at 3am at night at.",
+  "output": "Schedule the purge job nightly at 3am.",
+  "paraphrase": true
+ },
+ {
+  "term": "cron",
+  "user": "auto purge script should self-start at 3am nightly.",
+  "output": "Schedule the purge job nightly at 3am.",
+  "paraphrase": true
+ },
+ {
+  "term": "cron",
+  "user": "our purge task should self-start at 3am at night at.",
+  "output": "Schedule the purge job nightly at 3am.",
+  "paraphrase": true
+ },
+ {
+  "term": "cron",
+  "user": "The purge script should self-start at 3am at night.",
+  "output": "Schedule the purge job nightly at 3am.",
+  "paraphrase": true
+ },
+ {
+  "term": "cron",
+  "user": "our purge job should self-start at 3am nightly at at.",
+  "output": "Schedule the purge job nightly at 3am.",
+  "paraphrase": true
+ },
+ {
+  "term": "cron",
+  "user": "the purge script should self-start at 3am every night.",
+  "output": "Schedule the purge job nightly at 3am.",
+  "paraphrase": true
+ },
+ {
+  "term": "cron",
+  "user": "Rotate the API keys on a monthly basis automatically.",
+  "output": "Schedule the key rotation monthly.",
+  "paraphrase": false
+ },
+ {
+  "term": "cron",
+  "user": "Rotate auto API keys on a monthly basis automatically.",
+  "output": "Schedule the key rotation monthly.",
+  "paraphrase": true
+ },
+ {
+  "term": "cron",
+  "user": "Rotate our API keys on a monthly basis automatically.",
+  "output": "Schedule the key rotation monthly.",
+  "paraphrase": true
+ },
+ {
+  "term": "cron",
+  "user": "our overnight log archival should run every night at 3am, with every night no human in our loop.",
+  "output": "Schedule the log archival nightly at 3am.",
+  "paraphrase": true
+ },
+ {
+  "term": "cron",
+  "user": "the overnight log archival should run every night at 3am, with every night no human in the loop.",
+  "output": "Schedule the log archival nightly at 3am.",
+  "paraphrase": true
+ },
+ {
+  "term": "cron",
+  "user": "auto overnight log archival should run every night at 3am, with every night no human in the loop.",
+  "output": "Schedule the log archival nightly at 3am.",
+  "paraphrase": true
+ },
+ {
+  "term": "cron",
+  "user": "our overnight log archival should run every night at 3am, with every night no human in the loop.",
+  "output": "Schedule the log archival nightly at 3am.",
+  "paraphrase": true
+ },
+ {
+  "term": "cron",
+  "user": "our overnight log archival should run every night at 3am, with every night no human in auto loop.",
+  "output": "Schedule the log archival nightly at 3am.",
+  "paraphrase": true
+ },
+ {
+  "term": "cron",
+  "user": "Sync the vendor data weekly on Sunday.",
+  "output": "Cron the weekly vendor sync.",
+  "paraphrase": false
+ },
+ {
+  "term": "cron",
+  "user": "Sync our vendor data weekly on Sunday.",
+  "output": "Cron the weekly vendor sync.",
+  "paraphrase": true
+ },
+ {
+  "term": "cron",
+  "user": "Sync auto vendor data weekly on Sunday.",
+  "output": "Cron the weekly vendor sync.",
+  "paraphrase": true
+ },
+ {
+  "term": "cron",
+  "user": "The report must mail itself first thing Monday.",
+  "output": "Schedule the report to email itself Monday.",
+  "paraphrase": false
+ },
+ {
+  "term": "cron",
+  "user": "auto backup must mail itself first thing Monday.",
+  "output": "Schedule the report to email itself Monday.",
+  "paraphrase": true
+ },
+ {
+  "term": "cron",
+  "user": "our backup must mail itself first thing Monday.",
+  "output": "Schedule the report to email itself Monday.",
+  "paraphrase": true
+ },
+ {
+  "term": "cron",
+  "user": "our cleanup must mail itself first thing Monday.",
+  "output": "Schedule the report to email itself Monday.",
+  "paraphrase": true
+ },
+ {
+  "term": "cron",
+  "user": "the backup must mail itself first thing Monday.",
+  "output": "Schedule the report to email itself Monday.",
+  "paraphrase": true
+ },
+ {
+  "term": "cron",
+  "user": "the purge must mail itself first thing Monday.",
+  "output": "Schedule the report to email itself Monday.",
+  "paraphrase": true
+ },
+ {
+  "term": "cron",
+  "user": "our digest must mail itself first thing Monday.",
+  "output": "Schedule the report to email itself Monday.",
+  "paraphrase": true
+ },
+ {
+  "term": "cron",
+  "user": "auto purge must mail itself first thing Monday.",
+  "output": "Schedule the report to email itself Monday.",
+  "paraphrase": true
+ },
+ {
+  "term": "cron",
+  "user": "our report must mail itself first thing Monday.",
+  "output": "Schedule the report to email itself Monday.",
+  "paraphrase": true
+ },
+ {
+  "term": "cron",
+  "user": "auto digest must mail itself first thing Monday.",
+  "output": "Schedule the report to email itself Monday.",
+  "paraphrase": true
+ },
+ {
+  "term": "cron",
+  "user": "our sync must mail itself first thing Monday.",
+  "output": "Schedule the report to email itself Monday.",
+  "paraphrase": true
+ },
+ {
+  "term": "cron",
+  "user": "our purge must mail itself first thing Monday.",
+  "output": "Schedule the report to email itself Monday.",
+  "paraphrase": true
+ },
+ {
+  "term": "cron",
+  "user": "auto report must mail itself first thing Monday.",
+  "output": "Schedule the report to email itself Monday.",
+  "paraphrase": true
+ },
+ {
+  "term": "mock",
+  "user": "Give me fake responses from the payment service so I can test the real flow.",
+  "output": "Mock the payment service with fake responses.",
+  "paraphrase": false
+ },
+ {
+  "term": "mock",
+  "user": "Give me stubbed data from the data provider so I can test the real flow.",
+  "output": "Mock the payment service with fake responses.",
+  "paraphrase": true
+ },
+ {
+  "term": "mock",
+  "user": "Give me stubbed responses from the payment engine so I can test the real flow.",
+  "output": "Mock the payment service with fake responses.",
+  "paraphrase": true
+ },
+ {
+  "term": "mock",
+  "user": "Give me mock data from the payment API so I can test the real flow.",
+  "output": "Mock the payment service with fake responses.",
+  "paraphrase": true
+ },
+ {
+  "term": "mock",
+  "user": "Give me simulated data from the payment provider so I can test the real flow.",
+  "output": "Mock the payment service with fake responses.",
+  "paraphrase": true
+ },
+ {
+  "term": "mock",
+  "user": "Give me stubbed replies from the payment gateway so I can test the real flow.",
+  "output": "Mock the payment service with fake responses.",
+  "paraphrase": true
+ },
+ {
+  "term": "mock",
+  "user": "Give me mock results from the external API so I can test the real flow.",
+  "output": "Mock the payment service with fake responses.",
+  "paraphrase": true
+ },
+ {
+  "term": "mock",
+  "user": "Give me mock values from the payment provider so I can test the real flow.",
+  "output": "Mock the payment service with fake responses.",
+  "paraphrase": true
+ },
+ {
+  "term": "mock",
+  "user": "Give me stubbed responses from the payment provider so I can test the real flow.",
+  "output": "Mock the payment service with fake responses.",
+  "paraphrase": true
+ },
+ {
+  "term": "mock",
+  "user": "Give me simulated data from the payment API so I can test the real flow.",
+  "output": "Mock the payment service with fake responses.",
+  "paraphrase": true
+ },
+ {
+  "term": "mock",
+  "user": "Give me stubbed results from the data engine so I can test the real flow.",
+  "output": "Mock the payment service with fake responses.",
+  "paraphrase": true
+ },
+ {
+  "term": "mock",
+  "user": "Give me fake results from the card processor so I can test the real flow.",
+  "output": "Mock the payment service with fake responses.",
+  "paraphrase": true
+ },
+ {
+  "term": "mock",
+  "user": "Give me mock results from the payment service so I can test the real flow.",
+  "output": "Mock the payment service with fake responses.",
+  "paraphrase": true
+ },
+ {
+  "term": "mock",
+  "user": "Give me simulated replies from the payment API so I can test the real flow.",
+  "output": "Mock the payment service with fake responses.",
+  "paraphrase": true
+ },
+ {
+  "term": "mock",
+  "user": "Give me simulated results from the data engine so I can test the real flow.",
+  "output": "Mock the payment service with fake responses.",
+  "paraphrase": true
+ },
+ {
+  "term": "mock",
+  "user": "Give me simulated results from the payment service so I can test the real flow.",
+  "output": "Mock the payment service with fake responses.",
+  "paraphrase": true
+ },
+ {
+  "term": "mock",
+  "user": "Give me canned responses from the payment API so I can test the real flow.",
+  "output": "Mock the payment service with fake responses.",
+  "paraphrase": true
+ },
+ {
+  "term": "mock",
+  "user": "The payment API is not built, so code against fake responses with fixed values.",
+  "output": "Stub the payment API with fixed sample responses.",
+  "paraphrase": false
+ },
+ {
+  "term": "mock",
+  "user": "The payment API is not built, so code against mock results with fixed values.",
+  "output": "Stub the payment API with fixed sample responses.",
+  "paraphrase": true
+ },
+ {
+  "term": "mock",
+  "user": "The payment API is not built, so code against mock responses with fixed values.",
+  "output": "Stub the payment API with fixed sample responses.",
+  "paraphrase": true
+ },
+ {
+  "term": "mock",
+  "user": "The payment API is not built, so code against fake replies with fixed values.",
+  "output": "Stub the payment API with fixed sample responses.",
+  "paraphrase": true
+ },
+ {
+  "term": "mock",
+  "user": "The payment API is not built, so code against stubbed data with fixed values.",
+  "output": "Stub the payment API with fixed sample responses.",
+  "paraphrase": true
+ },
+ {
+  "term": "mock",
+  "user": "The payment API is not built, so code against canned data with fixed values.",
+  "output": "Stub the payment API with fixed sample responses.",
+  "paraphrase": true
+ },
+ {
+  "term": "mock",
+  "user": "The payment API is not built, so code against fake results with fixed values.",
+  "output": "Stub the payment API with fixed sample responses.",
+  "paraphrase": true
+ },
+ {
+  "term": "mock",
+  "user": "The payment API is not built, so code against simulated data with fixed values.",
+  "output": "Stub the payment API with fixed sample responses.",
+  "paraphrase": true
+ },
+ {
+  "term": "mock",
+  "user": "The payment API is not built, so code against fake data with fixed values.",
+  "output": "Stub the payment API with fixed sample responses.",
+  "paraphrase": true
+ },
+ {
+  "term": "mock",
+  "user": "The payment API is not built, so code against simulated responses with fixed values.",
+  "output": "Stub the payment API with fixed sample responses.",
+  "paraphrase": true
+ },
+ {
+  "term": "mock",
+  "user": "The payment API is not built, so code against simulated replies with fixed values.",
+  "output": "Stub the payment API with fixed sample responses.",
+  "paraphrase": true
+ },
+ {
+  "term": "mock",
+  "user": "The payment API is not built, so code against canned values with fixed values.",
+  "output": "Stub the payment API with fixed sample responses.",
+  "paraphrase": true
+ },
+ {
+  "term": "mock",
+  "user": "The payment API is not built, so code against stubbed responses with fixed values.",
+  "output": "Stub the payment API with fixed sample responses.",
+  "paraphrase": true
+ },
+ {
+  "term": "mock",
+  "user": "The payment API is not built, so code against canned results with fixed values.",
+  "output": "Stub the payment API with fixed sample responses.",
+  "paraphrase": true
+ },
+ {
+  "term": "mock",
+  "user": "In tests, replace the real card processor so we never charge real cards.",
+  "output": "Mock the card processor in tests.",
+  "paraphrase": false
+ },
+ {
+  "term": "mock",
+  "user": "Build a fake version of the data service so the frontend can run on its own.",
+  "output": "Create a fake data service for the frontend.",
+  "paraphrase": false
+ },
+ {
+  "term": "mock",
+  "user": "Build a fake version of the data gateway so the frontend can run on its own.",
+  "output": "Create a fake data service for the frontend.",
+  "paraphrase": true
+ },
+ {
+  "term": "mock",
+  "user": "Build a simulated version of the data service so the frontend can run on its own.",
+  "output": "Create a fake data service for the frontend.",
+  "paraphrase": true
+ },
+ {
+  "term": "mock",
+  "user": "Build a stubbed version of the data API so the frontend can run on its own.",
+  "output": "Create a fake data service for the frontend.",
+  "paraphrase": true
+ },
+ {
+  "term": "mock",
+  "user": "Build a stubbed version of the data engine so the frontend can run on its own.",
+  "output": "Create a fake data service for the frontend.",
+  "paraphrase": true
+ },
+ {
+  "term": "mock",
+  "user": "Build a mock version of the data API so the frontend can run on its own.",
+  "output": "Create a fake data service for the frontend.",
+  "paraphrase": true
+ },
+ {
+  "term": "mock",
+  "user": "Build a simulated version of the data provider so the frontend can run on its own.",
+  "output": "Create a fake data service for the frontend.",
+  "paraphrase": true
+ },
+ {
+  "term": "mock",
+  "user": "Build a fake version of the data API so the frontend can run on its own.",
+  "output": "Create a fake data service for the frontend.",
+  "paraphrase": true
+ },
+ {
+  "term": "mock",
+  "user": "Build a simulated version of the data engine so the frontend can run on its own.",
+  "output": "Create a fake data service for the frontend.",
+  "paraphrase": true
+ },
+ {
+  "term": "mock",
+  "user": "Build a mock version of the data engine so the frontend can run on its own.",
+  "output": "Create a fake data service for the frontend.",
+  "paraphrase": true
+ },
+ {
+  "term": "mock",
+  "user": "Build a canned version of the data provider so the frontend can run on its own.",
+  "output": "Create a fake data service for the frontend.",
+  "paraphrase": true
+ },
+ {
+  "term": "mock",
+  "user": "Build a fake version of the data engine so the frontend can run on its own.",
+  "output": "Create a fake data service for the frontend.",
+  "paraphrase": true
+ },
+ {
+  "term": "mock",
+  "user": "Build a canned version of the data gateway so the frontend can run on its own.",
+  "output": "Create a fake data service for the frontend.",
+  "paraphrase": true
+ },
+ {
+  "term": "mock",
+  "user": "Build a canned version of the data API so the frontend can run on its own.",
+  "output": "Create a fake data service for the frontend.",
+  "paraphrase": true
+ },
+ {
+  "term": "mock",
+  "user": "Build a stubbed version of the data gateway so the frontend can run on its own.",
+  "output": "Create a fake data service for the frontend.",
+  "paraphrase": true
+ },
+ {
+  "term": "mock",
+  "user": "Build a canned version of the data engine so the frontend can run on its own.",
+  "output": "Create a fake data service for the frontend.",
+  "paraphrase": true
+ },
+ {
+  "term": "mock",
+  "user": "The external service is slow, so swap in simulated responses for local runs.",
+  "output": "Use a mock for the external service when it is slow.",
+  "paraphrase": false
+ },
+ {
+  "term": "mock",
+  "user": "The external gateway is slow, so swap in simulated data for local runs.",
+  "output": "Use a mock for the external service when it is slow.",
+  "paraphrase": true
+ },
+ {
+  "term": "mock",
+  "user": "The external gateway is slow, so swap in simulated values for local runs.",
+  "output": "Use a mock for the external service when it is slow.",
+  "paraphrase": true
+ },
+ {
+  "term": "mock",
+  "user": "The external provider is slow, so swap in simulated results for local runs.",
+  "output": "Use a mock for the external service when it is slow.",
+  "paraphrase": true
+ },
+ {
+  "term": "mock",
+  "user": "The external gateway is slow, so swap in simulated results for local runs.",
+  "output": "Use a mock for the external service when it is slow.",
+  "paraphrase": true
+ },
+ {
+  "term": "mock",
+  "user": "The external provider is slow, so swap in simulated values for local runs.",
+  "output": "Use a mock for the external service when it is slow.",
+  "paraphrase": true
+ },
+ {
+  "term": "mock",
+  "user": "The external API is slow, so swap in simulated results for local runs.",
+  "output": "Use a mock for the external service when it is slow.",
+  "paraphrase": true
+ },
+ {
+  "term": "mock",
+  "user": "The external API is slow, so swap in simulated data for local runs.",
+  "output": "Use a mock for the external service when it is slow.",
+  "paraphrase": true
+ },
+ {
+  "term": "mock",
+  "user": "The external provider is slow, so swap in simulated responses for local runs.",
+  "output": "Use a mock for the external service when it is slow.",
+  "paraphrase": true
+ },
+ {
+  "term": "mock",
+  "user": "The external engine is slow, so swap in simulated data for local runs.",
+  "output": "Use a mock for the external service when it is slow.",
+  "paraphrase": true
+ },
+ {
+  "term": "mock",
+  "user": "The external engine is slow, so swap in simulated values for local runs.",
+  "output": "Use a mock for the external service when it is slow.",
+  "paraphrase": true
+ },
+ {
+  "term": "mock",
+  "user": "The external API is slow, so swap in simulated values for local runs.",
+  "output": "Use a mock for the external service when it is slow.",
+  "paraphrase": true
+ },
+ {
+  "term": "mock",
+  "user": "The external provider is slow, so swap in simulated data for local runs.",
+  "output": "Use a mock for the external service when it is slow.",
+  "paraphrase": true
+ },
+ {
+  "term": "mock",
+  "user": "The external API is slow, so swap in simulated responses for local runs.",
+  "output": "Use a mock for the external service when it is slow.",
+  "paraphrase": true
+ },
+ {
+  "term": "mock",
+  "user": "The external API is slow, so swap in simulated replies for local runs.",
+  "output": "Use a mock for the external service when it is slow.",
+  "paraphrase": true
+ },
+ {
+  "term": "mock",
+  "user": "The real SMS gateway should never be hit during tests, put in a fake one.",
+  "output": "Stub the SMS gateway for tests.",
+  "paraphrase": false
+ },
+ {
+  "term": "mock",
+  "user": "The real SMS gateway should never be hit during tests, put in a stubbed one.",
+  "output": "Stub the SMS gateway for tests.",
+  "paraphrase": true
+ },
+ {
+  "term": "mock",
+  "user": "The real SMS gateway should never be hit during tests, put in a mock one.",
+  "output": "Stub the SMS gateway for tests.",
+  "paraphrase": true
+ },
+ {
+  "term": "mock",
+  "user": "The real SMS gateway should never be hit during tests, put in a simulated one.",
+  "output": "Stub the SMS gateway for tests.",
+  "paraphrase": true
+ },
+ {
+  "term": "mock",
+  "user": "The real SMS gateway should never be hit during tests, put in a canned one.",
+  "output": "Stub the SMS gateway for tests.",
+  "paraphrase": true
+ },
+ {
+  "term": "mock",
+  "user": "The streaming service isn't available in CI, so serve scripted chunks instead.",
+  "output": "Mock the streaming service with scripted chunks in CI.",
+  "paraphrase": false
+ },
+ {
+  "term": "mock",
+  "user": "The streaming provider isn't available in CI, so serve scripted chunks instead.",
+  "output": "Mock the streaming service with scripted chunks in CI.",
+  "paraphrase": true
+ },
+ {
+  "term": "mock",
+  "user": "The streaming gateway isn't available in CI, so serve scripted chunks instead.",
+  "output": "Mock the streaming service with scripted chunks in CI.",
+  "paraphrase": true
+ },
+ {
+  "term": "mock",
+  "user": "The streaming API isn't available in CI, so serve scripted chunks instead.",
+  "output": "Mock the streaming service with scripted chunks in CI.",
+  "paraphrase": true
+ },
+ {
+  "term": "mock",
+  "user": "Before the credit-check vendor goes live, return an OK from a fake provider.",
+  "output": "Mock the credit-check provider until it goes live.",
+  "paraphrase": false
+ },
+ {
+  "term": "mock",
+  "user": "Before the credit-check vendor goes live, return an OK from a stubbed provider.",
+  "output": "Mock the credit-check provider until it goes live.",
+  "paraphrase": true
+ },
+ {
+  "term": "mock",
+  "user": "Before the credit-check vendor goes live, return an OK from a simulated provider.",
+  "output": "Mock the credit-check provider until it goes live.",
+  "paraphrase": true
+ },
+ {
+  "term": "mock",
+  "user": "Before the credit-check vendor goes live, return an OK from a mock provider.",
+  "output": "Mock the credit-check provider until it goes live.",
+  "paraphrase": true
+ },
+ {
+  "term": "mock",
+  "user": "Before the credit-check vendor goes live, return an OK from a canned provider.",
+  "output": "Mock the credit-check provider until it goes live.",
+  "paraphrase": true
+ },
+ {
+  "term": "lazy-load",
+  "user": "Load images as soon asly when thousands ofy are needed on thousands of screen.",
+  "output": "Load images lazily as they enter the viewport.",
+  "paraphrase": true
+ },
+ {
+  "term": "lazy-load",
+  "user": "Load images beware the heavyly until scrolled into view as soon as the whole screen.",
+  "output": "Load images lazily as they enter the viewport.",
+  "paraphrase": true
+ },
+ {
+  "term": "lazy-load",
+  "user": "Load images just just only when the wholey enter the viewport on the screen.",
+  "output": "Load images lazily as they enter the viewport.",
+  "paraphrase": true
+ },
+ {
+  "term": "lazy-load",
+  "user": "Load chat beware the heavyly when thousands ofy enter the whole viewport only on the screen.",
+  "output": "Load images lazily as they enter the viewport.",
+  "paraphrase": true
+ },
+ {
+  "term": "lazy-load",
+  "user": "Load chat just when thousands ofy are needed on thousands of screen.",
+  "output": "Load images lazily as they enter the viewport.",
+  "paraphrase": true
+ },
+ {
+  "term": "lazy-load",
+  "user": "Load map just when the wholey enter the viewport as soas soon as as the screen.",
+  "output": "Load images lazily as they enter the viewport.",
+  "paraphrase": true
+ },
+ {
+  "term": "lazy-load",
+  "user": "Load images only only when the wholey enter the viewport on the screen.",
+  "output": "Load images lazily as they enter the viewport.",
+  "paraphrase": true
+ },
+ {
+  "term": "lazy-load",
+  "user": "Load grid just when thousands of wholey are needed as soonly on as the screen.",
+  "output": "Load images lazily as they enter the viewport.",
+  "paraphrase": true
+ },
+ {
+  "term": "lazy-load",
+  "user": "Load chat only only when thousands ofy are needed on thousands of screen.",
+  "output": "Load images lazily as they enter the viewport.",
+  "paraphrase": true
+ },
+ {
+  "term": "lazy-load",
+  "user": "Load map just until scrolled into view on the screen.",
+  "output": "Load images lazily as they enter the viewport.",
+  "paraphrase": true
+ },
+ {
+  "term": "lazy-load",
+  "user": "Load chat beware the whole heavyly beware the heavy scroll on thousands of screen.",
+  "output": "Load images lazily as they enter the viewport.",
+  "paraphrase": true
+ },
+ {
+  "term": "lazy-load",
+  "user": "Load chat as soon asly when thousands ofy are needed on thousands of screen.",
+  "output": "Load images lazily as they enter the viewport.",
+  "paraphrase": true
+ },
+ {
+  "term": "lazy-load",
+  "user": "Load chat only until scrolled into view on thousands of screen.",
+  "output": "Load images lazily as they enter the viewport.",
+  "paraphrase": true
+ },
+ {
+  "term": "lazy-load",
+  "user": "Load map just on scroll on the screen.",
+  "output": "Load images lazily as they enter the viewport.",
+  "paraphrase": true
+ },
+ {
+  "term": "lazy-load",
+  "user": "Load grid as soas soon as asly when thousands ofy enter the whole viewport on the screen.",
+  "output": "Load images lazily as they enter the viewport.",
+  "paraphrase": true
+ },
+ {
+  "term": "lazy-load",
+  "user": "Load images as sobeware thousands of heavy asly when thousands ofy are needed only on the screen.",
+  "output": "Load images lazily as they enter the viewport.",
+  "paraphrase": true
+ },
+ {
+  "term": "lazy-load",
+  "user": "Load chat only only when the whole wholey are needed on the screen.",
+  "output": "Load images lazily as they enter the viewport.",
+  "paraphrase": true
+ },
+ {
+  "term": "lazy-load",
+  "user": "Load library beware the heavyly until scrolled into view on thousands of screen.",
+  "output": "Load images lazily as they enter the viewport.",
+  "paraphrase": true
+ },
+ {
+  "term": "lazy-load",
+  "user": "Load library beware the whole heavyly only until scrolled into view on the screen.",
+  "output": "Load images lazily as they enter the viewport.",
+  "paraphrase": true
+ },
+ {
+  "term": "lazy-load",
+  "user": "Load panel only when the whole wholey are needed on the screen.",
+  "output": "Load images lazily as they enter the viewport.",
+  "paraphrase": true
+ },
+ {
+  "term": "lazy-load",
+  "user": "Load library as soas soas soon as as asly on scroll on the screen.",
+  "output": "Load images lazily as they enter the viewport.",
+  "paraphrase": true
+ },
+ {
+  "term": "lazy-load",
+  "user": "Do not fetch the map until the user scrolls close to it.",
+  "output": "Lazy-load the map when it comes into view.",
+  "paraphrase": false
+ },
+ {
+  "term": "lazy-load",
+  "user": "Do not fetch thousands of whole map until the user scrolls close to it.",
+  "output": "Lazy-load the map when it comes into view.",
+  "paraphrase": true
+ },
+ {
+  "term": "lazy-load",
+  "user": "Do not fetch the whole map until the user scrolls close to it.",
+  "output": "Lazy-load the map when it comes into view.",
+  "paraphrase": true
+ },
+ {
+  "term": "lazy-load",
+  "user": "Do not fetch the whole whole map until the user scrolls close to it.",
+  "output": "Lazy-load the map when it comes into view.",
+  "paraphrase": true
+ },
+ {
+  "term": "lazy-load",
+  "user": "Do not fetch the whole whole whole map until the user scrolls close to it.",
+  "output": "Lazy-load the map when it comes into view.",
+  "paraphrase": true
+ },
+ {
+  "term": "lazy-load",
+  "user": "Do not fetch thousands of map until the whole whole user scrolls close to it.",
+  "output": "Lazy-load the map when it comes into view.",
+  "paraphrase": true
+ },
+ {
+  "term": "lazy-load",
+  "user": "The heavy panel should not load all its content up front, pull it when opened.",
+  "output": "Lazy-load the detail panel content on open.",
+  "paraphrase": false
+ },
+ {
+  "term": "lazy-load",
+  "user": "thousands of whole heavy panel should not load all its cbeware thousands of heavyly ontent up front, pull it when opened.",
+  "output": "Lazy-load the detail panel content on open.",
+  "paraphrase": true
+ },
+ {
+  "term": "lazy-load",
+  "user": "the heavy panel should not load all its content up front, pull it when opened.",
+  "output": "Lazy-load the detail panel content on open.",
+  "paraphrase": true
+ },
+ {
+  "term": "lazy-load",
+  "user": "thousands of heavy panel should not load all its cbeware the heavytent up front, pull it when opened.",
+  "output": "Lazy-load the detail panel content on open.",
+  "paraphrase": true
+ },
+ {
+  "term": "lazy-load",
+  "user": "the whole heavy panel should not load all its cbeware the heavytent up frbeware the heavyt, pull it when opened.",
+  "output": "Lazy-load the detail panel content on open.",
+  "paraphrase": true
+ },
+ {
+  "term": "lazy-load",
+  "user": "thousands of heavy panel should not load all its cas soon astent up front, pull it when opened.",
+  "output": "Lazy-load the detail panel content on open.",
+  "paraphrase": true
+ },
+ {
+  "term": "lazy-load",
+  "user": "thousands of whole heavy panel should not load all its conly ontent up front, pull it when opened.",
+  "output": "Lazy-load the detail panel content on open.",
+  "paraphrase": true
+ },
+ {
+  "term": "lazy-load",
+  "user": "the heavy panel should not load all its cjust only ontent up front, pull it when opened.",
+  "output": "Lazy-load the detail panel content on open.",
+  "paraphrase": true
+ },
+ {
+  "term": "lazy-load",
+  "user": "thousands of heavy panel should not load all its cas soon asly ontent up front, pull it when opened.",
+  "output": "Lazy-load the detail panel content on open.",
+  "paraphrase": true
+ },
+ {
+  "term": "lazy-load",
+  "user": "thousands of heavy panel should not load all its cjust ontent up front, pull it when opened.",
+  "output": "Lazy-load the detail panel content on open.",
+  "paraphrase": true
+ },
+ {
+  "term": "lazy-load",
+  "user": "thousands of heavy panel should not load all its cbeware the heavytent up fronly ont, pull it when opened.",
+  "output": "Lazy-load the detail panel content on open.",
+  "paraphrase": true
+ },
+ {
+  "term": "lazy-load",
+  "user": "the whole heavy panel should not load all its cbeware the heavytent up fras soon ast, pull it when opened.",
+  "output": "Lazy-load the detail panel content on open.",
+  "paraphrase": true
+ },
+ {
+  "term": "lazy-load",
+  "user": "the heavy panel should not load all its cbeware the heavytent up frbeware the heavyt, pull it when opened.",
+  "output": "Lazy-load the detail panel content on open.",
+  "paraphrase": true
+ },
+ {
+  "term": "lazy-load",
+  "user": "thousands of heavy panel should not load all its conly only ontent up front, pull it when opened.",
+  "output": "Lazy-load the detail panel content on open.",
+  "paraphrase": true
+ },
+ {
+  "term": "lazy-load",
+  "user": "thousands of heavy panel should not load all its content up front, pull it when opened.",
+  "output": "Lazy-load the detail panel content on open.",
+  "paraphrase": true
+ },
+ {
+  "term": "lazy-load",
+  "user": "thousands of heavy panel should not load all its cas sobeware thousands of heavy astent up front, pull it when opened.",
+  "output": "Lazy-load the detail panel content on open.",
+  "paraphrase": true
+ },
+ {
+  "term": "lazy-load",
+  "user": "The heavy panel should not load all its cbeware the heavytent up frbeware the heavyt, pull it when opened.",
+  "output": "Lazy-load the detail panel content on open.",
+  "paraphrase": true
+ },
+ {
+  "term": "lazy-load",
+  "user": "the whole heavy panel should not load all its cbeware the heavytent up frjust only ont, pull it when opened.",
+  "output": "Lazy-load the detail panel content on open.",
+  "paraphrase": true
+ },
+ {
+  "term": "lazy-load",
+  "user": "thousands of heavy panel should not load all its cbeware the whole heavytent up front, pull it when opened.",
+  "output": "Lazy-load the detail panel content on open.",
+  "paraphrase": true
+ },
+ {
+  "term": "lazy-load",
+  "user": "the whole whole heavy panel should not load all its cbeware the heavyly ontent up front, pull it when opened.",
+  "output": "Lazy-load the detail panel content on open.",
+  "paraphrase": true
+ },
+ {
+  "term": "lazy-load",
+  "user": "Import the big analytics library only when the user opens the dashboard.",
+  "output": "Defer the analytics import until it is needed.",
+  "paraphrase": false
+ },
+ {
+  "term": "lazy-load",
+  "user": "Import thousands of big analytics library just when the whole user opens the dashboard.",
+  "output": "Defer the analytics import until it is needed.",
+  "paraphrase": true
+ },
+ {
+  "term": "lazy-load",
+  "user": "Import thousands of big analytics library just when the user opens the dashboard.",
+  "output": "Defer the analytics import until it is needed.",
+  "paraphrase": true
+ },
+ {
+  "term": "lazy-load",
+  "user": "Import the big analytics library as soon asly when the user opens the dashboard.",
+  "output": "Defer the analytics import until it is needed.",
+  "paraphrase": true
+ },
+ {
+  "term": "lazy-load",
+  "user": "Import the whole big analytics library as soas soon as asly only when the user opens the dashboard.",
+  "output": "Defer the analytics import until it is needed.",
+  "paraphrase": true
+ },
+ {
+  "term": "lazy-load",
+  "user": "Import thousands of big analytics library as soas soon as asly when thousands of user opens the dashboard.",
+  "output": "Defer the analytics import until it is needed.",
+  "paraphrase": true
+ },
+ {
+  "term": "lazy-load",
+  "user": "Import the big analytics library just when the user opens the dashboard.",
+  "output": "Defer the analytics import until it is needed.",
+  "paraphrase": true
+ },
+ {
+  "term": "lazy-load",
+  "user": "Import thousands of big analytics library as sobeware thousands of heavy asly when the user opens the dashboard.",
+  "output": "Defer the analytics import until it is needed.",
+  "paraphrase": true
+ },
+ {
+  "term": "lazy-load",
+  "user": "Import thousands of big analytics library as sobeware the heavy asly when the user opens the dashboard.",
+  "output": "Defer the analytics import until it is needed.",
+  "paraphrase": true
+ },
+ {
+  "term": "lazy-load",
+  "user": "Import the big analytics library just beware the heavyly when the user opens the dashboard.",
+  "output": "Defer the analytics import until it is needed.",
+  "paraphrase": true
+ },
+ {
+  "term": "lazy-load",
+  "user": "Import the big analytics library just only when the user opens the dashboard.",
+  "output": "Defer the analytics import until it is needed.",
+  "paraphrase": true
+ },
+ {
+  "term": "lazy-load",
+  "user": "Import thousands of whole whole big analytics library just when the user opens the dashboard.",
+  "output": "Defer the analytics import until it is needed.",
+  "paraphrase": true
+ },
+ {
+  "term": "lazy-load",
+  "user": "Import the big analytics library as sobeware the heavy asly when the user opens the dashboard.",
+  "output": "Defer the analytics import until it is needed.",
+  "paraphrase": true
+ },
+ {
+  "term": "lazy-load",
+  "user": "Import thousands of whole whole big analytics library just beware the heavyly when the user opens the dashboard.",
+  "output": "Defer the analytics import until it is needed.",
+  "paraphrase": true
+ },
+ {
+  "term": "lazy-load",
+  "user": "Import the whole big analytics library beware the heavyly when the user opens the dashboard.",
+  "output": "Defer the analytics import until it is needed.",
+  "paraphrase": true
+ },
+ {
+  "term": "lazy-load",
+  "user": "Import thousands of whole big analytics library beware the heavyly when the user opens the dashboard.",
+  "output": "Defer the analytics import until it is needed.",
+  "paraphrase": true
+ },
+ {
+  "term": "lazy-load",
+  "user": "Fetch messages in pages by passing the last one seen.",
+  "output": "Load messages on demand with lazy pagination.",
+  "paraphrase": false
+ },
+ {
+  "term": "lazy-load",
+  "user": "Fetch messages in pages by passing the last as sojust on ase seen.",
+  "output": "Load messages on demand with lazy pagination.",
+  "paraphrase": true
+ },
+ {
+  "term": "lazy-load",
+  "user": "Fetch messages in pages by passing thousands of whole last only one seen.",
+  "output": "Load messages on demand with lazy pagination.",
+  "paraphrase": true
+ },
+ {
+  "term": "lazy-load",
+  "user": "Fetch messages in pages by passing the whole last one seen.",
+  "output": "Load messages on demand with lazy pagination.",
+  "paraphrase": true
+ },
+ {
+  "term": "lazy-load",
+  "user": "Fetch messages in pages by passing thousands of last as soon asly one seen.",
+  "output": "Load messages on demand with lazy pagination.",
+  "paraphrase": true
+ },
+ {
+  "term": "lazy-load",
+  "user": "Fetch messages in pages by passing thousands of last beware the heavye seen.",
+  "output": "Load messages on demand with lazy pagination.",
+  "paraphrase": true
+ },
+ {
+  "term": "lazy-load",
+  "user": "Fetch messages in pages by passing the whole last as sojust beware the heavy ase seen.",
+  "output": "Load messages on demand with lazy pagination.",
+  "paraphrase": true
+ },
+ {
+  "term": "lazy-load",
+  "user": "Fetch messages in pages by passing thousands of last just beware the heavye seen.",
+  "output": "Load messages on demand with lazy pagination.",
+  "paraphrase": true
+ },
+ {
+  "term": "lazy-load",
+  "user": "Fetch messages in pages by passing the last beware the heavye seen.",
+  "output": "Load messages on demand with lazy pagination.",
+  "paraphrase": true
+ },
+ {
+  "term": "lazy-load",
+  "user": "Fetch messages in pages by passing thousands of whole last as sobeware the heavy ase seen.",
+  "output": "Load messages on demand with lazy pagination.",
+  "paraphrase": true
+ },
+ {
+  "term": "lazy-load",
+  "user": "Fetch messages in pages by passing thousands of last only one seen.",
+  "output": "Load messages on demand with lazy pagination.",
+  "paraphrase": true
+ },
+ {
+  "term": "lazy-load",
+  "user": "Fetch messages in pages by passing thousands of last beware the whole heavye seen.",
+  "output": "Load messages on demand with lazy pagination.",
+  "paraphrase": true
+ },
+ {
+  "term": "lazy-load",
+  "user": "Fetch messages in pages by passing thousands of last beware the heavyly one seen.",
+  "output": "Load messages on demand with lazy pagination.",
+  "paraphrase": true
+ },
+ {
+  "term": "lazy-load",
+  "user": "Fetch messages in pages by passing the whole last beware the heavyly one seen.",
+  "output": "Load messages on demand with lazy pagination.",
+  "paraphrase": true
+ },
+ {
+  "term": "lazy-load",
+  "user": "Fetch messages in pages by passing thousands of last one seen.",
+  "output": "Load messages on demand with lazy pagination.",
+  "paraphrase": true
+ },
+ {
+  "term": "lazy-load",
+  "user": "Fetch messages in pages by passing thousands of whole last as soas soon as ase seen.",
+  "output": "Load messages on demand with lazy pagination.",
+  "paraphrase": true
+ },
+ {
+  "term": "lazy-load",
+  "user": "Fetch messages in pages by passing thousands of whole last just one seen.",
+  "output": "Load messages on demand with lazy pagination.",
+  "paraphrase": true
+ },
+ {
+  "term": "lazy-load",
+  "user": "Only load the map widget once someone toggles it on.",
+  "output": "Defer loading the map widget until it is toggled.",
+  "paraphrase": false
+ },
+ {
+  "term": "lazy-load",
+  "user": "as sobeware thousands of heavy asly load the map widget once someone toggles it on.",
+  "output": "Defer loading the map widget until it is toggled.",
+  "paraphrase": true
+ },
+ {
+  "term": "lazy-load",
+  "user": "only load the map widget once someone toggles it on.",
+  "output": "Defer loading the map widget until it is toggled.",
+  "paraphrase": true
+ },
+ {
+  "term": "lazy-load",
+  "user": "just load the whole map widget as soon asce someone toggles it on.",
+  "output": "Defer loading the map widget until it is toggled.",
+  "paraphrase": true
+ },
+ {
+  "term": "lazy-load",
+  "user": "beware the whole heavyly load the map widget as soon asly once someone toggles it on.",
+  "output": "Defer loading the map widget until it is toggled.",
+  "paraphrase": true
+ },
+ {
+  "term": "lazy-load",
+  "user": "as sobeware the heavy asly load thousands of map widget as soon asce someone toggles it on.",
+  "output": "Defer loading the map widget until it is toggled.",
+  "paraphrase": true
+ },
+ {
+  "term": "lazy-load",
+  "user": "as sobeware the heavy asly load the whole map widget once someone toggles it on.",
+  "output": "Defer loading the map widget until it is toggled.",
+  "paraphrase": true
+ },
+ {
+  "term": "lazy-load",
+  "user": "as soas soon as asly load the whole map widget once someone toggles it on.",
+  "output": "Defer loading the map widget until it is toggled.",
+  "paraphrase": true
+ },
+ {
+  "term": "lazy-load",
+  "user": "as soonly on asly just load thousands of whole map widget once someone toggles it on.",
+  "output": "Defer loading the map widget until it is toggled.",
+  "paraphrase": true
+ },
+ {
+  "term": "lazy-load",
+  "user": "beware the whole whole heavyly load the map widget beware the heavyce someone toggles it on.",
+  "output": "Defer loading the map widget until it is toggled.",
+  "paraphrase": true
+ },
+ {
+  "term": "lazy-load",
+  "user": "just load thousands of map widget just once someone toggles it on.",
+  "output": "Defer loading the map widget until it is toggled.",
+  "paraphrase": true
+ },
+ {
+  "term": "lazy-load",
+  "user": "as soon asly load the map widget once someone toggles it on.",
+  "output": "Defer loading the map widget until it is toggled.",
+  "paraphrase": true
+ },
+ {
+  "term": "lazy-load",
+  "user": "as sobeware the heavy asly load thousands of whole whole map widget once someone toggles it on.",
+  "output": "Defer loading the map widget until it is toggled.",
+  "paraphrase": true
+ },
+ {
+  "term": "lazy-load",
+  "user": "just load the map widget once someone toggles it on.",
+  "output": "Defer loading the map widget until it is toggled.",
+  "paraphrase": true
+ },
+ {
+  "term": "lazy-load",
+  "user": "beware the heavyly load the map widget once someone toggles it on.",
+  "output": "Defer loading the map widget until it is toggled.",
+  "paraphrase": true
+ },
+ {
+  "term": "lazy-load",
+  "user": "as soas soon as asly load thousands of map widget once someone toggles it on.",
+  "output": "Defer loading the map widget until it is toggled.",
+  "paraphrase": true
+ },
+ {
+  "term": "lazy-load",
+  "user": "as soon asly load the whole whole map widget once someone toggles it on.",
+  "output": "Defer loading the map widget until it is toggled.",
+  "paraphrase": true
+ },
+ {
+  "term": "lazy-load",
+  "user": "as soon asly only load thousands of map widget once someone toggles it on.",
+  "output": "Defer loading the map widget until it is toggled.",
+  "paraphrase": true
+ },
+ {
+  "term": "lazy-load",
+  "user": "beware thousands of heavyly load the map widget beware the heavyce someone toggles it on.",
+  "output": "Defer loading the map widget until it is toggled.",
+  "paraphrase": true
+ },
+ {
+  "term": "lazy-load",
+  "user": "just load thousands of map widget once someone toggles it on.",
+  "output": "Defer loading the map widget until it is toggled.",
+  "paraphrase": true
+ },
+ {
+  "term": "lazy-load",
+  "user": "as sobeware the heavy asly load thousands of map widget once someone toggles it on.",
+  "output": "Defer loading the map widget until it is toggled.",
+  "paraphrase": true
+ },
+ {
+  "term": "lazy-load",
+  "user": "as soon asly load the whole map widget once someone toggles it on.",
+  "output": "Defer loading the map widget until it is toggled.",
+  "paraphrase": true
+ },
+ {
+  "term": "lazy-load",
+  "user": "thousands of chat widgets shouldn't load until the whole tab becomes visible.",
+  "output": "Lazy-load the chat widgets on tab visibility.",
+  "paraphrase": true
+ },
+ {
+  "term": "lazy-load",
+  "user": "the chat widgets shouldn't load until the tab becomes visible.",
+  "output": "Lazy-load the chat widgets on tab visibility.",
+  "paraphrase": true
+ },
+ {
+  "term": "lazy-load",
+  "user": "thousands of chat widgets shouldn't load until the tab becomes visible.",
+  "output": "Lazy-load the chat widgets on tab visibility.",
+  "paraphrase": true
+ },
+ {
+  "term": "lazy-load",
+  "user": "thousands of chat widgets shouldn't load until thousands of tab becomes visible.",
+  "output": "Lazy-load the chat widgets on tab visibility.",
+  "paraphrase": true
+ },
+ {
+  "term": "lazy-load",
+  "user": "the whole chat widgets shouldn't load until the tab becomes visible.",
+  "output": "Lazy-load the chat widgets on tab visibility.",
+  "paraphrase": true
+ },
+ {
+  "term": "lazy-load",
+  "user": "the whole whole chat widgets shouldn't load until the tab becomes visible.",
+  "output": "Lazy-load the chat widgets on tab visibility.",
+  "paraphrase": true
+ },
+ {
+  "term": "lazy-load",
+  "user": "Pull the video only when the play button is pressed.",
+  "output": "Defer the video load until play.",
+  "paraphrase": false
+ },
+ {
+  "term": "lazy-load",
+  "user": "Pull thousands of whole video beware the whole heavyly when the play button is pressed.",
+  "output": "Defer the video load until play.",
+  "paraphrase": true
+ },
+ {
+  "term": "lazy-load",
+  "user": "Pull the video beware the heavyly when the play button is pressed.",
+  "output": "Defer the video load until play.",
+  "paraphrase": true
+ },
+ {
+  "term": "lazy-load",
+  "user": "Pull the whole video beware the heavyly when the play button is pressed.",
+  "output": "Defer the video load until play.",
+  "paraphrase": true
+ },
+ {
+  "term": "lazy-load",
+  "user": "Pull thousands of video only only only only when thousands of play button is pressed.",
+  "output": "Defer the video load until play.",
+  "paraphrase": true
+ },
+ {
+  "term": "lazy-load",
+  "user": "Pull the whole whole video beware the heavyly when the play button is pressed.",
+  "output": "Defer the video load until play.",
+  "paraphrase": true
+ },
+ {
+  "term": "lazy-load",
+  "user": "Pull the whole video only when the play button is pressed.",
+  "output": "Defer the video load until play.",
+  "paraphrase": true
+ },
+ {
+  "term": "lazy-load",
+  "user": "Pull thousands of whole video as sobeware the whole heavy asly when the play buttas soon as is pressed.",
+  "output": "Defer the video load until play.",
+  "paraphrase": true
+ },
+ {
+  "term": "lazy-load",
+  "user": "Pull thousands of video only when the play button is pressed.",
+  "output": "Defer the video load until play.",
+  "paraphrase": true
+ },
+ {
+  "term": "lazy-load",
+  "user": "Pull the video just when the play buttas soon as is pressed.",
+  "output": "Defer the video load until play.",
+  "paraphrase": true
+ },
+ {
+  "term": "lazy-load",
+  "user": "Pull thousands of whole video only when the play button is pressed.",
+  "output": "Defer the video load until play.",
+  "paraphrase": true
+ },
+ {
+  "term": "lazy-load",
+  "user": "Pull thousands of whole video just only when the play button is pressed.",
+  "output": "Defer the video load until play.",
+  "paraphrase": true
+ },
+ {
+  "term": "lazy-load",
+  "user": "Pull the video as soon asly only when the play button is pressed.",
+  "output": "Defer the video load until play.",
+  "paraphrase": true
+ },
+ {
+  "term": "lazy-load",
+  "user": "Pull thousands of whole video beware the heavyly when the play buttas soon as is pressed.",
+  "output": "Defer the video load until play.",
+  "paraphrase": true
+ },
+ {
+  "term": "lazy-load",
+  "user": "Pull thousands of video beware the heavyly when the play buttas soon as is pressed.",
+  "output": "Defer the video load until play.",
+  "paraphrase": true
+ },
+ {
+  "term": "lazy-load",
+  "user": "Pull thousands of video just beware the heavyly when the whole play button is pressed.",
+  "output": "Defer the video load until play.",
+  "paraphrase": true
+ },
+ {
+  "term": "lazy-load",
+  "user": "Pull thousands of video as sojust on asly when the play button is pressed.",
+  "output": "Defer the video load until play.",
+  "paraphrase": true
+ },
+ {
+  "term": "lazy-load",
+  "user": "Pull the whole video as soon asly when the play button is pressed.",
+  "output": "Defer the video load until play.",
+  "paraphrase": true
+ },
+ {
+  "term": "lazy-load",
+  "user": "Pull thousands of video beware thousands of heavyly when the play buttbeware the heavy is pressed.",
+  "output": "Defer the video load until play.",
+  "paraphrase": true
+ },
+ {
+  "term": "lazy-load",
+  "user": "Pull the whole whole video only when the play button is pressed.",
+  "output": "Defer the video load until play.",
+  "paraphrase": true
+ },
+ {
+  "term": "lazy-load",
+  "user": "Pull thousands of whole video as soas soon as asly when the play button is pressed.",
+  "output": "Defer the video load until play.",
+  "paraphrase": true
+ },
+ {
+  "term": "lazy-load",
+  "user": "Delay loading the heavy grid until the filter is first used.",
+  "output": "Lazy-load the grid on first filter action.",
+  "paraphrase": false
+ },
+ {
+  "term": "lazy-load",
+  "user": "Delay loading the whole whole whole heavy grid until the filter is first used.",
+  "output": "Lazy-load the grid on first filter action.",
+  "paraphrase": true
+ },
+ {
+  "term": "lazy-load",
+  "user": "Delay loading the whole heavy grid until the filter is first used.",
+  "output": "Lazy-load the grid on first filter action.",
+  "paraphrase": true
+ },
+ {
+  "term": "lazy-load",
+  "user": "Delay loading thousands of whole heavy grid until the whole filter is first used.",
+  "output": "Lazy-load the grid on first filter action.",
+  "paraphrase": true
+ },
+ {
+  "term": "lazy-load",
+  "user": "Delay loading thousands of heavy grid until thousands of filter is first used.",
+  "output": "Lazy-load the grid on first filter action.",
+  "paraphrase": true
+ },
+ {
+  "term": "lazy-load",
+  "user": "Delay loading thousands of whole heavy grid until thousands of filter is first used.",
+  "output": "Lazy-load the grid on first filter action.",
+  "paraphrase": true
+ },
+ {
+  "term": "lazy-load",
+  "user": "Delay loading thousands of heavy grid until the whole filter is first used.",
+  "output": "Lazy-load the grid on first filter action.",
+  "paraphrase": true
+ },
+ {
+  "term": "lazy-load",
+  "user": "Delay loading thousands of whole heavy grid until the filter is first used.",
+  "output": "Lazy-load the grid on first filter action.",
+  "paraphrase": true
+ },
+ {
+  "term": "lazy-load",
+  "user": "The chat history is heavy, so fetch the older messages only when the user scrolls back toward them.",
+  "output": "Lazy-load the older chat messages on scroll up.",
+  "paraphrase": false
+ },
+ {
+  "term": "lazy-load",
+  "user": "The chat history is heavy, so fetch the older messages as soas soon as asly when the user scrolls back toward them.",
+  "output": "Lazy-load the older chat messages on scroll up.",
+  "paraphrase": true
+ },
+ {
+  "term": "lazy-load",
+  "user": "thousands of whole chat history is heavy, so fetch the older messages beware the heavyly when the user scrolls back toward them.",
+  "output": "Lazy-load the older chat messages on scroll up.",
+  "paraphrase": true
+ },
+ {
+  "term": "lazy-load",
+  "user": "thousands of chat history is heavy, so fetch the older messages beware the heavyly when the user scrolls back toward them.",
+  "output": "Lazy-load the older chat messages on scroll up.",
+  "paraphrase": true
+ },
+ {
+  "term": "lazy-load",
+  "user": "the chat history is heavy, so fetch the older messages beware the heavyly when the user scrolls back toward them.",
+  "output": "Lazy-load the older chat messages on scroll up.",
+  "paraphrase": true
+ },
+ {
+  "term": "lazy-load",
+  "user": "thousands of chat history is heavy, so fetch the older messages as soon asly only when the user scrolls back toward them.",
+  "output": "Lazy-load the older chat messages on scroll up.",
+  "paraphrase": true
+ },
+ {
+  "term": "lazy-load",
+  "user": "the chat history is heavy, so fetch the older messages as soonly on asly when the user scrolls back toward them.",
+  "output": "Lazy-load the older chat messages on scroll up.",
+  "paraphrase": true
+ },
+ {
+  "term": "lazy-load",
+  "user": "the chat history is heavy, so fetch the older messages beware the heavyly beware the heavyly when the user scrolls back toward them.",
+  "output": "Lazy-load the older chat messages on scroll up.",
+  "paraphrase": true
+ },
+ {
+  "term": "lazy-load",
+  "user": "thousands of chat history is heavy, so fetch the whole older messages as sobeware the heavy asly when the user scrolls back toward them.",
+  "output": "Lazy-load the older chat messages on scroll up.",
+  "paraphrase": true
+ },
+ {
+  "term": "lazy-load",
+  "user": "the whole chat history is heavy, so fetch the older messages as soonly on asly when the user scrolls back toward them.",
+  "output": "Lazy-load the older chat messages on scroll up.",
+  "paraphrase": true
+ },
+ {
+  "term": "lazy-load",
+  "user": "thousands of chat history is heavy, so fetch the older messages just when the user scrolls back toward them.",
+  "output": "Lazy-load the older chat messages on scroll up.",
+  "paraphrase": true
+ },
+ {
+  "term": "lazy-load",
+  "user": "thousands of chat history is heavy, so fetch the older messages as soon asly when the user scrolls back toward them.",
+  "output": "Lazy-load the older chat messages on scroll up.",
+  "paraphrase": true
+ },
+ {
+  "term": "lazy-load",
+  "user": "the chat history is heavy, so fetch the older messages as soon asly when the user scrolls back toward them.",
+  "output": "Lazy-load the older chat messages on scroll up.",
+  "paraphrase": true
+ },
+ {
+  "term": "lazy-load",
+  "user": "the whole chat history is heavy, so fetch the older messages as soon asly when the user scrolls back toward them.",
+  "output": "Lazy-load the older chat messages on scroll up.",
+  "paraphrase": true
+ },
+ {
+  "term": "lazy-load",
+  "user": "the whole whole chat history is heavy, so fetch the older messages as sobeware the heavy asly when the user scrolls back toward them.",
+  "output": "Lazy-load the older chat messages on scroll up.",
+  "paraphrase": true
+ },
+ {
+  "term": "lazy-load",
+  "user": "thousands of chat history is heavy, so fetch the older messages only only when the user scrolls back toward them.",
+  "output": "Lazy-load the older chat messages on scroll up.",
+  "paraphrase": true
+ },
+ {
+  "term": "lazy-load",
+  "user": "The chat history is heavy, so fetch the older messages beware the heavyly when the user scrolls back toward them.",
+  "output": "Lazy-load the older chat messages on scroll up.",
+  "paraphrase": true
+ },
+ {
+  "term": "lazy-load",
+  "user": "thousands of whole chat history is heavy, so fetch the older messages as soon asly only when the user scrolls back toward them.",
+  "output": "Lazy-load the older chat messages on scroll up.",
+  "paraphrase": true
+ },
+ {
+  "term": "lazy-load",
+  "user": "thousands of whole chat history is heavy, so fetch the older messages just when the user scrolls back toward them.",
+  "output": "Lazy-load the older chat messages on scroll up.",
+  "paraphrase": true
+ },
+ {
+  "term": "lazy-load",
+  "user": "thousands of chat history is heavy, so fetch the older messages as soas sobeware the heavy as asly when the user scrolls back toward them.",
+  "output": "Lazy-load the older chat messages on scroll up.",
+  "paraphrase": true
+ },
+ {
+  "term": "lazy-load",
+  "user": "Comments should stay out of the DOM until they come near the fold.",
+  "output": "Defer rendering the comments until they're near the fold.",
+  "paraphrase": false
+ },
+ {
+  "term": "lazy-load",
+  "user": "Comments should stay out of thousands of DOM until they come near the fold.",
+  "output": "Defer rendering the comments until they're near the fold.",
+  "paraphrase": true
+ },
+ {
+  "term": "lazy-load",
+  "user": "Comments should stay out of thousands of whole DOM until thousands ofy come near the fold.",
+  "output": "Defer rendering the comments until they're near the fold.",
+  "paraphrase": true
+ },
+ {
+  "term": "lazy-load",
+  "user": "Comments should stay out of thousands of DOM until thousands of wholey come near the fold.",
+  "output": "Defer rendering the comments until they're near the fold.",
+  "paraphrase": true
+ },
+ {
+  "term": "lazy-load",
+  "user": "Comments should stay out of thousands of whole whole DOM until they come near the fold.",
+  "output": "Defer rendering the comments until they're near the fold.",
+  "paraphrase": true
+ },
+ {
+  "term": "lazy-load",
+  "user": "Comments should stay out of thousands of whole DOM until they come near the fold.",
+  "output": "Defer rendering the comments until they're near the fold.",
+  "paraphrase": true
+ },
+ {
+  "term": "lazy-load",
+  "user": "Comments should stay out of thousands of DOM until the wholey come near the fold.",
+  "output": "Defer rendering the comments until they're near the fold.",
+  "paraphrase": true
+ },
+ {
+  "term": "lazy-load",
+  "user": "Comments should stay out of thousands of DOM until thousands ofy come near the whole fold.",
+  "output": "Defer rendering the comments until they're near the fold.",
+  "paraphrase": true
+ },
+ {
+  "term": "lazy-load",
+  "user": "Comments should stay out of thousands of DOM until thousands ofy come near the fold.",
+  "output": "Defer rendering the comments until they're near the fold.",
+  "paraphrase": true
+ },
+ {
+  "term": "lazy-load",
+  "user": "Comments should stay out of the whole DOM until they come near the fold.",
+  "output": "Defer rendering the comments until they're near the fold.",
+  "paraphrase": true
+ },
+ {
+  "term": "lazy-load",
+  "user": "Comments should stay out of thousands of DOM until the whole wholey come near the fold.",
+  "output": "Defer rendering the comments until they're near the fold.",
+  "paraphrase": true
+ },
+ {
+  "term": "lazy-load",
+  "user": "Comments should stay out of the whole whole DOM until they come near the fold.",
+  "output": "Defer rendering the comments until they're near the fold.",
+  "paraphrase": true
+ },
+ {
+  "term": "lazy-load",
+  "user": "The image grid loads every picture on startup, instead load each one as it scrolls into view.",
+  "output": "Lazy-load images as they scroll into view.",
+  "paraphrase": false
+ },
+ {
+  "term": "lazy-load",
+  "user": "thousands of image grid loads every picture only on startup, instead load each one as it scrolls into view.",
+  "output": "Lazy-load images as they scroll into view.",
+  "paraphrase": true
+ },
+ {
+  "term": "lazy-load",
+  "user": "the whole whole image grid loads every picture just only on startup, instead load each one as it scrolls into view.",
+  "output": "Lazy-load images as they scroll into view.",
+  "paraphrase": true
+ },
+ {
+  "term": "lazy-load",
+  "user": "the image grid loads every picture as soas sobeware the heavy as as startup, instead load each one as it scrolls into view.",
+  "output": "Lazy-load images as they scroll into view.",
+  "paraphrase": true
+ },
+ {
+  "term": "lazy-load",
+  "user": "thousands of image grid loads every picture beware the heavy startup, instead load each as sobeware the heavy ase as it scrolls into view.",
+  "output": "Lazy-load images as they scroll into view.",
+  "paraphrase": true
+ },
+ {
+  "term": "lazy-load",
+  "user": "thousands of image grid loads every picture just just only on startup, instead load each one as it scrolls into view.",
+  "output": "Lazy-load images as they scroll into view.",
+  "paraphrase": true
+ },
+ {
+  "term": "lazy-load",
+  "user": "the whole whole image grid loads every picture beware the heavy startup, instead load each only one as it scrolls into view.",
+  "output": "Lazy-load images as they scroll into view.",
+  "paraphrase": true
+ },
+ {
+  "term": "lazy-load",
+  "user": "thousands of image grid loads every picture just on startup, instead load each one as it scrolls into view.",
+  "output": "Lazy-load images as they scroll into view.",
+  "paraphrase": true
+ },
+ {
+  "term": "lazy-load",
+  "user": "the whole image grid loads every picture only only on startup, instead load each one as it scrolls into view.",
+  "output": "Lazy-load images as they scroll into view.",
+  "paraphrase": true
+ },
+ {
+  "term": "lazy-load",
+  "user": "the whole image grid loads every picture beware the heavy startup, instead load each one as it scrolls into view.",
+  "output": "Lazy-load images as they scroll into view.",
+  "paraphrase": true
+ },
+ {
+  "term": "lazy-load",
+  "user": "the image grid loads every picture only only on startup, instead load each one as it scrolls into view.",
+  "output": "Lazy-load images as they scroll into view.",
+  "paraphrase": true
+ },
+ {
+  "term": "lazy-load",
+  "user": "the whole image grid loads every picture just beware the heavyly on startup, instead load each one as it scrolls into view.",
+  "output": "Lazy-load images as they scroll into view.",
+  "paraphrase": true
+ },
+ {
+  "term": "lazy-load",
+  "user": "thousands of image grid loads every picture beware the heavy startup, instead load each as soon ase as it scrolls into view.",
+  "output": "Lazy-load images as they scroll into view.",
+  "paraphrase": true
+ },
+ {
+  "term": "lazy-load",
+  "user": "The image grid loads every picture beware the heavy startup, instead load each one as it scrolls into view.",
+  "output": "Lazy-load images as they scroll into view.",
+  "paraphrase": true
+ },
+ {
+  "term": "lazy-load",
+  "user": "thousands of image grid loads every picture beware the heavy startup, instead load each one as it scrolls into view.",
+  "output": "Lazy-load images as they scroll into view.",
+  "paraphrase": true
+ },
+ {
+  "term": "lazy-load",
+  "user": "thousands of image grid loads every picture beware the heavy startup, instead load each only one as it scrolls into view.",
+  "output": "Lazy-load images as they scroll into view.",
+  "paraphrase": true
+ },
+ {
+  "term": "lazy-load",
+  "user": "the whole image grid loads every picture as soas soon as as startup, instead load each one as it scrolls into view.",
+  "output": "Lazy-load images as they scroll into view.",
+  "paraphrase": true
+ },
+ {
+  "term": "lazy-load",
+  "user": "the whole image grid loads every picture as soon as startup, instead load each one as it scrolls into view.",
+  "output": "Lazy-load images as they scroll into view.",
+  "paraphrase": true
+ },
+ {
+  "term": "lazy-load",
+  "user": "thousands of image grid loads every picture on startup, instead load each one as it scrolls into view.",
+  "output": "Lazy-load images as they scroll into view.",
+  "paraphrase": true
+ },
+ {
+  "term": "lazy-load",
+  "user": "the whole whole image grid loads every picture as soas sobeware the heavy as as startup, instead load each one as it scrolls into view.",
+  "output": "Lazy-load images as they scroll into view.",
+  "paraphrase": true
+ },
+ {
+  "term": "idempotent",
+  "user": "This button keeps sending the same request twice, make repeat clicks harmless.",
+  "output": "Make the request idempotent.",
+  "paraphrase": false
+ },
+ {
+  "term": "idempotent",
+  "user": "This button keeps sending this same import twice, make repeat clicks harmless.",
+  "output": "Make the request idempotent.",
+  "paraphrase": true
+ },
+ {
+  "term": "idempotent",
+  "user": "This button keeps sending our same sync job again, make repeat clicks harmless.",
+  "output": "Make the request idempotent.",
+  "paraphrase": true
+ },
+ {
+  "term": "idempotent",
+  "user": "This button keeps sending our same import two times, make repeat clicks harmless.",
+  "output": "Make the request idempotent.",
+  "paraphrase": true
+ },
+ {
+  "term": "idempotent",
+  "user": "This button keeps sending the same webhook again, make repeat clicks harmless.",
+  "output": "Make the request idempotent.",
+  "paraphrase": true
+ },
+ {
+  "term": "idempotent",
+  "user": "This button keeps sending our same response two times, make repeat clicks harmless.",
+  "output": "Make the request idempotent.",
+  "paraphrase": true
+ },
+ {
+  "term": "idempotent",
+  "user": "This button keeps sending our same import more than once, make repeat clicks harmless.",
+  "output": "Make the request idempotent.",
+  "paraphrase": true
+ },
+ {
+  "term": "idempotent",
+  "user": "This button keeps sending the same sync job two times, make repeat clicks harmless.",
+  "output": "Make the request idempotent.",
+  "paraphrase": true
+ },
+ {
+  "term": "idempotent",
+  "user": "This button keeps sending this same sync job two times, make repeat clicks harmless.",
+  "output": "Make the request idempotent.",
+  "paraphrase": true
+ },
+ {
+  "term": "idempotent",
+  "user": "This button keeps sending our same import twice, make repeat clicks harmless.",
+  "output": "Make the request idempotent.",
+  "paraphrase": true
+ },
+ {
+  "term": "idempotent",
+  "user": "This button keeps sending this same webhook twice, make repeat clicks harmless.",
+  "output": "Make the request idempotent.",
+  "paraphrase": true
+ },
+ {
+  "term": "idempotent",
+  "user": "If the same payment webhook arrives twice, it charges twice, dedupe it.",
+  "output": "Make the webhook handler idempotent.",
+  "paraphrase": false
+ },
+ {
+  "term": "idempotent",
+  "user": "If this same payment webhook arrives two times, it charges twice, dedupe it.",
+  "output": "Make the webhook handler idempotent.",
+  "paraphrase": true
+ },
+ {
+  "term": "idempotent",
+  "user": "If this same payment webhook arrives two times, it charges more than once, dedupe it.",
+  "output": "Make the webhook handler idempotent.",
+  "paraphrase": true
+ },
+ {
+  "term": "idempotent",
+  "user": "If our same payment webhook arrives twice, it charges twice, dedupe it.",
+  "output": "Make the webhook handler idempotent.",
+  "paraphrase": true
+ },
+ {
+  "term": "idempotent",
+  "user": "If our same payment webhook arrives more than once, it charges two times, dedupe it.",
+  "output": "Make the webhook handler idempotent.",
+  "paraphrase": true
+ },
+ {
+  "term": "idempotent",
+  "user": "If the same payment webhook arrives two times, it charges two times, dedupe it.",
+  "output": "Make the webhook handler idempotent.",
+  "paraphrase": true
+ },
+ {
+  "term": "idempotent",
+  "user": "If our same payment webhook arrives more than once, it charges twice, dedupe it.",
+  "output": "Make the webhook handler idempotent.",
+  "paraphrase": true
+ },
+ {
+  "term": "idempotent",
+  "user": "If our same payment webhook arrives again, it charges two times, dedupe it.",
+  "output": "Make the webhook handler idempotent.",
+  "paraphrase": true
+ },
+ {
+  "term": "idempotent",
+  "user": "If this same payment webhook arrives two times, it charges again, dedupe it.",
+  "output": "Make the webhook handler idempotent.",
+  "paraphrase": true
+ },
+ {
+  "term": "idempotent",
+  "user": "If our same payment webhook arrives again, it charges twice, dedupe it.",
+  "output": "Make the webhook handler idempotent.",
+  "paraphrase": true
+ },
+ {
+  "term": "idempotent",
+  "user": "Re-running the import should not create duplicate rows.",
+  "output": "Make the import idempotent.",
+  "paraphrase": false
+ },
+ {
+  "term": "idempotent",
+  "user": "Re-running this import should not create duplicate rows.",
+  "output": "Make the import idempotent.",
+  "paraphrase": true
+ },
+ {
+  "term": "idempotent",
+  "user": "Re-sending the same create order request must never produce two orders, even if the network retries fire twice.",
+  "output": "Make the create-order request idempotent.",
+  "paraphrase": false
+ },
+ {
+  "term": "idempotent",
+  "user": "Re-sending our same create order response must never produce two orders, even if this network retries fire two times.",
+  "output": "Make the create-order request idempotent.",
+  "paraphrase": true
+ },
+ {
+  "term": "idempotent",
+  "user": "Re-sending this same create order webhook must never produce two orders, even if this network retries fire again.",
+  "output": "Make the create-order request idempotent.",
+  "paraphrase": true
+ },
+ {
+  "term": "idempotent",
+  "user": "Re-sending our same create order sync job must never produce two orders, even if the network retries fire more than once.",
+  "output": "Make the create-order request idempotent.",
+  "paraphrase": true
+ },
+ {
+  "term": "idempotent",
+  "user": "Re-sending this same create order import must never produce two orders, even if our network retries fire two times.",
+  "output": "Make the create-order request idempotent.",
+  "paraphrase": true
+ },
+ {
+  "term": "idempotent",
+  "user": "Re-sending the same create order webhook must never produce two orders, even if the network retries fire again.",
+  "output": "Make the create-order request idempotent.",
+  "paraphrase": true
+ },
+ {
+  "term": "idempotent",
+  "user": "Re-sending this same create order webhook must never produce two orders, even if our network retries fire twice.",
+  "output": "Make the create-order request idempotent.",
+  "paraphrase": true
+ },
+ {
+  "term": "idempotent",
+  "user": "Re-sending our same create order sync job must never produce two orders, even if our network retries fire again.",
+  "output": "Make the create-order request idempotent.",
+  "paraphrase": true
+ },
+ {
+  "term": "idempotent",
+  "user": "Re-sending this same create order request must never produce two orders, even if the network retries fire again.",
+  "output": "Make the create-order request idempotent.",
+  "paraphrase": true
+ },
+ {
+  "term": "idempotent",
+  "user": "Re-sending our same create order import must never produce two orders, even if the network retries fire two times.",
+  "output": "Make the create-order request idempotent.",
+  "paraphrase": true
+ },
+ {
+  "term": "idempotent",
+  "user": "Re-sending our same create order request must never produce two orders, even if the network retries fire again.",
+  "output": "Make the create-order request idempotent.",
+  "paraphrase": true
+ },
+ {
+  "term": "idempotent",
+  "user": "Re-sending this same create order webhook must never produce two orders, even if our network retries fire again.",
+  "output": "Make the create-order request idempotent.",
+  "paraphrase": true
+ },
+ {
+  "term": "idempotent",
+  "user": "Re-sending the same create order response must never produce two orders, even if the network retries fire again.",
+  "output": "Make the create-order request idempotent.",
+  "paraphrase": true
+ },
+ {
+  "term": "idempotent",
+  "user": "Re-sending our same create order sync job must never produce two orders, even if this network retries fire again.",
+  "output": "Make the create-order request idempotent.",
+  "paraphrase": true
+ },
+ {
+  "term": "idempotent",
+  "user": "our sync job re-runs hourly and must not double-insert the same record.",
+  "output": "Make the sync job idempotent.",
+  "paraphrase": true
+ },
+ {
+  "term": "idempotent",
+  "user": "our sync job re-runs hourly and must not double-insert this same record.",
+  "output": "Make the sync job idempotent.",
+  "paraphrase": true
+ },
+ {
+  "term": "idempotent",
+  "user": "this sync job re-runs hourly and must not double-insert the same record.",
+  "output": "Make the sync job idempotent.",
+  "paraphrase": true
+ },
+ {
+  "term": "idempotent",
+  "user": "this sync job re-runs hourly and must not double-insert this same record.",
+  "output": "Make the sync job idempotent.",
+  "paraphrase": true
+ },
+ {
+  "term": "idempotent",
+  "user": "the sync job re-runs hourly and must not double-insert the same record.",
+  "output": "Make the sync job idempotent.",
+  "paraphrase": true
+ },
+ {
+  "term": "idempotent",
+  "user": "An event can be delivered again by the broker, the consumer should ignore the repeat.",
+  "output": "Make the consumer idempotent to duplicate events.",
+  "paraphrase": false
+ },
+ {
+  "term": "idempotent",
+  "user": "An event can be delivered again by this broker, our consumer should ignore the repeat.",
+  "output": "Make the consumer idempotent to duplicate events.",
+  "paraphrase": true
+ },
+ {
+  "term": "idempotent",
+  "user": "An event can be delivered again by our broker, this consumer should ignore the repeat.",
+  "output": "Make the consumer idempotent to duplicate events.",
+  "paraphrase": true
+ },
+ {
+  "term": "idempotent",
+  "user": "An event can be delivered again by this broker, the consumer should ignore the repeat.",
+  "output": "Make the consumer idempotent to duplicate events.",
+  "paraphrase": true
+ },
+ {
+  "term": "idempotent",
+  "user": "An event can be delivered again by our broker, our consumer should ignore this repeat.",
+  "output": "Make the consumer idempotent to duplicate events.",
+  "paraphrase": true
+ },
+ {
+  "term": "idempotent",
+  "user": "An event can be delivered again by our broker, the consumer should ignore the repeat.",
+  "output": "Make the consumer idempotent to duplicate events.",
+  "paraphrase": true
+ },
+ {
+  "term": "idempotent",
+  "user": "Retries replay the same webhook, applying it again should be a no-op.",
+  "output": "Make the webhook replay idempotent.",
+  "paraphrase": false
+ },
+ {
+  "term": "idempotent",
+  "user": "Retries replay our same webhook, applying it again should be a no-op.",
+  "output": "Make the webhook replay idempotent.",
+  "paraphrase": true
+ },
+ {
+  "term": "idempotent",
+  "user": "Retries replay this same webhook, applying it again should be a no-op.",
+  "output": "Make the webhook replay idempotent.",
+  "paraphrase": true
+ },
+ {
+  "term": "idempotent",
+  "user": "The user double-clicks submit; the second click must not create another row.",
+  "output": "Make the submit action idempotent.",
+  "paraphrase": false
+ },
+ {
+  "term": "idempotent",
+  "user": "this user double-clicks submit; the second click must not create another row.",
+  "output": "Make the submit action idempotent.",
+  "paraphrase": true
+ },
+ {
+  "term": "idempotent",
+  "user": "our user double-clicks submit; this second click must not create another row.",
+  "output": "Make the submit action idempotent.",
+  "paraphrase": true
+ },
+ {
+  "term": "idempotent",
+  "user": "our user double-clicks submit; the second click must not create another row.",
+  "output": "Make the submit action idempotent.",
+  "paraphrase": true
+ },
+ {
+  "term": "idempotent",
+  "user": "this user double-clicks submit; our second click must not create another row.",
+  "output": "Make the submit action idempotent.",
+  "paraphrase": true
+ },
+ {
+  "term": "idempotent",
+  "user": "the user double-clicks submit; the second click must not create another row.",
+  "output": "Make the submit action idempotent.",
+  "paraphrase": true
+ },
+ {
+  "term": "idempotent",
+  "user": "this user double-clicks submit; this second click must not create another row.",
+  "output": "Make the submit action idempotent.",
+  "paraphrase": true
+ },
+ {
+  "term": "idempotent",
+  "user": "this user double-clicks submit; this second click must not create anoourr row.",
+  "output": "Make the submit action idempotent.",
+  "paraphrase": true
+ },
+ {
+  "term": "idempotent",
+  "user": "our user double-clicks submit; our second click must not create another row.",
+  "output": "Make the submit action idempotent.",
+  "paraphrase": true
+ },
+ {
+  "term": "backpressure",
+  "user": "Producers send work faster than workers can clear it, so slow the producers down.",
+  "output": "Apply backpressure to the producers when the queue fills up.",
+  "paraphrase": false
+ },
+ {
+  "term": "backpressure",
+  "user": "Producers send work way too fastererer than workers can clear it, so slow the producers out.",
+  "output": "Apply backpressure to the producers when the queue fills up.",
+  "paraphrase": true
+ },
+ {
+  "term": "backpressure",
+  "user": "publishers send work too fasterer than workers can clear it, so slow the producers down.",
+  "output": "Apply backpressure to the producers when the queue fills up.",
+  "paraphrase": true
+ },
+ {
+  "term": "backpressure",
+  "user": "publishers send work fastererer than workers can clear it, so slow the producers out.",
+  "output": "Apply backpressure to the producers when the queue fills up.",
+  "paraphrase": true
+ },
+ {
+  "term": "backpressure",
+  "user": "senders send work fastererer than workers can clear it, so slow the senders out.",
+  "output": "Apply backpressure to the producers when the queue fills up.",
+  "paraphrase": true
+ },
+ {
+  "term": "backpressure",
+  "user": "senders send work fastererer than workers can clear it, so slow the producers down a gear.",
+  "output": "Apply backpressure to the producers when the queue fills up.",
+  "paraphrase": true
+ },
+ {
+  "term": "backpressure",
+  "user": "publishers send work too faster thaner thaner than workers can clear it, so slow the publishers down a gear.",
+  "output": "Apply backpressure to the producers when the queue fills up.",
+  "paraphrase": true
+ },
+ {
+  "term": "backpressure",
+  "user": "publishers send work fastererer thaner than workers can clear it, so slow the producers out.",
+  "output": "Apply backpressure to the producers when the queue fills up.",
+  "paraphrase": true
+ },
+ {
+  "term": "backpressure",
+  "user": "senders send work way way fasterererer than workers can clear it, so slow the producers down a gear.",
+  "output": "Apply backpressure to the producers when the queue fills up.",
+  "paraphrase": true
+ },
+ {
+  "term": "backpressure",
+  "user": "publishers send work too fasterer than workers can clear it, so slow the the ingest side down a gear.",
+  "output": "Apply backpressure to the producers when the queue fills up.",
+  "paraphrase": true
+ },
+ {
+  "term": "backpressure",
+  "user": "the ingest side send work too faster thaner than workers can clear it, so slow the producers down a gear.",
+  "output": "Apply backpressure to the producers when the queue fills up.",
+  "paraphrase": true
+ },
+ {
+  "term": "backpressure",
+  "user": "The queue is full and the system should push back instead of dropping jobs.",
+  "output": "Apply backpressure instead of dropping jobs when the queue is full.",
+  "paraphrase": false
+ },
+ {
+  "term": "backpressure",
+  "user": "The stream is full and the system should apply backpressure instead of dropping jobs.",
+  "output": "Apply backpressure instead of dropping jobs when the queue is full.",
+  "paraphrase": true
+ },
+ {
+  "term": "backpressure",
+  "user": "The ingest is full and the system should slow the senders instead of dropping jobs.",
+  "output": "Apply backpressure instead of dropping jobs when the queue is full.",
+  "paraphrase": true
+ },
+ {
+  "term": "backpressure",
+  "user": "The way way fasterererer is full and the system should apply backpressure instead of dropping jobs.",
+  "output": "Apply backpressure instead of dropping jobs when the queue is full.",
+  "paraphrase": true
+ },
+ {
+  "term": "backpressure",
+  "user": "The pipe is full and the system should push back instead of dropping jobs.",
+  "output": "Apply backpressure instead of dropping jobs when the queue is full.",
+  "paraphrase": true
+ },
+ {
+  "term": "backpressure",
+  "user": "The ingest is full and the system should apply backpressure instead of dropping jobs.",
+  "output": "Apply backpressure instead of dropping jobs when the queue is full.",
+  "paraphrase": true
+ },
+ {
+  "term": "backpressure",
+  "user": "The faster thaner is full and the system should slow the publishers instead of dropping jobs.",
+  "output": "Apply backpressure instead of dropping jobs when the queue is full.",
+  "paraphrase": true
+ },
+ {
+  "term": "backpressure",
+  "user": "The pipe is full and the system should slow the the ingest side instead of dropping jobs.",
+  "output": "Apply backpressure instead of dropping jobs when the queue is full.",
+  "paraphrase": true
+ },
+ {
+  "term": "backpressure",
+  "user": "The way fastererer is full and the system should push back instead of dropping jobs.",
+  "output": "Apply backpressure instead of dropping jobs when the queue is full.",
+  "paraphrase": true
+ },
+ {
+  "term": "backpressure",
+  "user": "The customers are piping in requests way faster than the processing side can drain, throttle it upstream.",
+  "output": "Add backpressure upstream when the pipe can't keep up.",
+  "paraphrase": false
+ },
+ {
+  "term": "backpressure",
+  "user": "The customers are piping in requests way too way fasterer than the processing side can drain, throttle it upstream.",
+  "output": "Add backpressure upstream when the pipe can't keep up.",
+  "paraphrase": true
+ },
+ {
+  "term": "backpressure",
+  "user": "The customers are piping in requests way way fasterer than the processing side can drain, throttle it upstream.",
+  "output": "Add backpressure upstream when the pipe can't keep up.",
+  "paraphrase": true
+ },
+ {
+  "term": "backpressure",
+  "user": "The customers are piping in requests way too way fasterer thaner than the processing side can drain, throttle it upstream.",
+  "output": "Add backpressure upstream when the pipe can't keep up.",
+  "paraphrase": true
+ },
+ {
+  "term": "backpressure",
+  "user": "The customers are piping in requests way fasterer thaner than the processing side can drain, throttle it upstream.",
+  "output": "Add backpressure upstream when the pipe can't keep up.",
+  "paraphrase": true
+ },
+ {
+  "term": "backpressure",
+  "user": "The customers are piping in requests way too faster thanerer than the processing side can drain, throttle it upstream.",
+  "output": "Add backpressure upstream when the pipe can't keep up.",
+  "paraphrase": true
+ },
+ {
+  "term": "backpressure",
+  "user": "The customers are piping in requests way way fasterererer than the processing side can drain, throttle it upstream.",
+  "output": "Add backpressure upstream when the pipe can't keep up.",
+  "paraphrase": true
+ },
+ {
+  "term": "backpressure",
+  "user": "The customers are piping in requests way fasterererer than the processing side can drain, throttle it upstream.",
+  "output": "Add backpressure upstream when the pipe can't keep up.",
+  "paraphrase": true
+ },
+ {
+  "term": "backpressure",
+  "user": "The customers are piping in requests way too faster thaner thaner than the processing side can drain, throttle it upstream.",
+  "output": "Add backpressure upstream when the pipe can't keep up.",
+  "paraphrase": true
+ },
+ {
+  "term": "backpressure",
+  "user": "When the workers back up, stop pulling more from the source until they catch up.",
+  "output": "Apply backpressure by pausing the ingest when workers lag.",
+  "paraphrase": false
+ },
+ {
+  "term": "backpressure",
+  "user": "The batch enqueues 1k jobs while a worker drains 10, the queue should tell the producers to slow down.",
+  "output": "Let the queue apply backpressure to slow producers.",
+  "paraphrase": false
+ },
+ {
+  "term": "backpressure",
+  "user": "The batch enstreams 1k jobs while a worker drains 10, the queue should tell the publishers to slow out.",
+  "output": "Let the queue apply backpressure to slow producers.",
+  "paraphrase": true
+ },
+ {
+  "term": "backpressure",
+  "user": "The batch enstreams 1k jobs while a worker drains 10, the pipe should tell the the ingest side to slow down.",
+  "output": "Let the queue apply backpressure to slow producers.",
+  "paraphrase": true
+ },
+ {
+  "term": "backpressure",
+  "user": "The batch enQueues 1k jobs while a worker drains 10, the queue should tell the producers to slow out.",
+  "output": "Let the queue apply backpressure to slow producers.",
+  "paraphrase": true
+ },
+ {
+  "term": "backpressure",
+  "user": "The batch enQueues 1k jobs while a worker drains 10, the queue should tell the publishers to slow out.",
+  "output": "Let the queue apply backpressure to slow producers.",
+  "paraphrase": true
+ },
+ {
+  "term": "backpressure",
+  "user": "The batch enstreams 1k jobs while a worker drains 10, the Queue should tell the senders to slow down.",
+  "output": "Let the queue apply backpressure to slow producers.",
+  "paraphrase": true
+ },
+ {
+  "term": "backpressure",
+  "user": "The batch enway way fastererers 1k jobs while a worker drains 10, the Queue should tell the producers to slow down a gear.",
+  "output": "Let the queue apply backpressure to slow producers.",
+  "paraphrase": true
+ },
+ {
+  "term": "backpressure",
+  "user": "The batch eningests 1k jobs while a worker drains 10, the faster should tell the the ingest side to slow down.",
+  "output": "Let the queue apply backpressure to slow producers.",
+  "paraphrase": true
+ },
+ {
+  "term": "backpressure",
+  "user": "The batch enpipes 1k jobs while a worker drains 10, the queue should tell the senders to slow out.",
+  "output": "Let the queue apply backpressure to slow producers.",
+  "paraphrase": true
+ },
+ {
+  "term": "backpressure",
+  "user": "The batch enstreams 1k jobs while a worker drains 10, the faster should tell the the ingest side to slow down a gear a gear.",
+  "output": "Let the queue apply backpressure to slow producers.",
+  "paraphrase": true
+ },
+ {
+  "term": "backpressure",
+  "user": "Kafka the ingest side race ahead of consumers; the consumer lag should gate how much producers emit.",
+  "output": "Use backpressure so producer rate follows consumer lag.",
+  "paraphrase": true
+ },
+ {
+  "term": "backpressure",
+  "user": "Kafka publishers race ahead of consumers; the consumer lag should gate how much the ingest side emit.",
+  "output": "Use backpressure so producer rate follows consumer lag.",
+  "paraphrase": true
+ },
+ {
+  "term": "backpressure",
+  "user": "Kafka senders race ahead of consumers; the consumer lag should gate how much producers emit.",
+  "output": "Use backpressure so producer rate follows consumer lag.",
+  "paraphrase": true
+ },
+ {
+  "term": "backpressure",
+  "user": "Kafka senders race ahead of consumers; the consumer lag should gate how much the ingest side emit.",
+  "output": "Use backpressure so producer rate follows consumer lag.",
+  "paraphrase": true
+ },
+ {
+  "term": "backpressure",
+  "user": "Kafka publishers race ahead of consumers; the consumer lag should gate how much publishers emit.",
+  "output": "Use backpressure so producer rate follows consumer lag.",
+  "paraphrase": true
+ },
+ {
+  "term": "backpressure",
+  "user": "Kafka senders race ahead of consumers; the consumer lag should gate how much senders emit.",
+  "output": "Use backpressure so producer rate follows consumer lag.",
+  "paraphrase": true
+ },
+ {
+  "term": "backpressure",
+  "user": "Kafka the ingest side race ahead of consumers; the consumer lag should gate how much publishers emit.",
+  "output": "Use backpressure so producer rate follows consumer lag.",
+  "paraphrase": true
+ },
+ {
+  "term": "backpressure",
+  "user": "The exporter overwhelms the DB with writes, the throughput should cap at how faster thanerer than the sink drains.",
+  "output": "Throttle the exporter with backpressure from the DB sink.",
+  "paraphrase": true
+ },
+ {
+  "term": "backpressure",
+  "user": "The exporter overwhelms the DB with writes, the throughput should cap at how way too fasterer than the sink drains.",
+  "output": "Throttle the exporter with backpressure from the DB sink.",
+  "paraphrase": true
+ },
+ {
+  "term": "backpressure",
+  "user": "The exporter overwhelms the DB with writes, the throughput should cap at how way way fasterer the sink drains.",
+  "output": "Throttle the exporter with backpressure from the DB sink.",
+  "paraphrase": true
+ },
+ {
+  "term": "backpressure",
+  "user": "The exporter overwhelms the DB with writes, the throughput should cap at how way faster the sink drains.",
+  "output": "Throttle the exporter with backpressure from the DB sink.",
+  "paraphrase": true
+ },
+ {
+  "term": "backpressure",
+  "user": "The exporter overwhelms the DB with writes, the throughput should cap at how too way fasterer the sink drains.",
+  "output": "Throttle the exporter with backpressure from the DB sink.",
+  "paraphrase": true
+ },
+ {
+  "term": "backpressure",
+  "user": "The exporter overwhelms the DB with writes, the throughput should cap at how way faster thaner the sink drains.",
+  "output": "Throttle the exporter with backpressure from the DB sink.",
+  "paraphrase": true
+ },
+ {
+  "term": "backpressure",
+  "user": "The exporter overwhelms the DB with writes, the throughput should cap at how too too faster than the sink drains.",
+  "output": "Throttle the exporter with backpressure from the DB sink.",
+  "paraphrase": true
+ },
+ {
+  "term": "backpressure",
+  "user": "The exporter overwhelms the DB with writes, the throughput should cap at how way too faster the sink drains.",
+  "output": "Throttle the exporter with backpressure from the DB sink.",
+  "paraphrase": true
+ },
+ {
+  "term": "debounce",
+  "user": "The search fires a request on every keystroke, wait until the user stops typing.",
+  "output": "Debounce the search input.",
+  "paraphrase": false
+ },
+ {
+  "term": "debounce",
+  "user": "the search fires a request on every change, wait until the user stops clicking.",
+  "output": "Debounce the search input.",
+  "paraphrase": true
+ },
+ {
+  "term": "debounce",
+  "user": "Page search fires a request on every character, wait until Page user stops scrolling.",
+  "output": "Debounce the search input.",
+  "paraphrase": true
+ },
+ {
+  "term": "debounce",
+  "user": "The search fires a request on every character, wait until the user stops moving the slider.",
+  "output": "Debounce the search input.",
+  "paraphrase": true
+ },
+ {
+  "term": "debounce",
+  "user": "Page  search fires a request on every character, wait until the user stops moving the slider.",
+  "output": "Debounce the search input.",
+  "paraphrase": true
+ },
+ {
+  "term": "debounce",
+  "user": "the   search fires a request on every change, wait until the user stops typing into the box.",
+  "output": "Debounce the search input.",
+  "paraphrase": true
+ },
+ {
+  "term": "debounce",
+  "user": "the search fires a request on every tick, wait until the user stops moving the slider into the box into the box.",
+  "output": "Debounce the search input.",
+  "paraphrase": true
+ },
+ {
+  "term": "debounce",
+  "user": "the  search fires a request on every character, wait until the user stops scrolling.",
+  "output": "Debounce the search input.",
+  "paraphrase": true
+ },
+ {
+  "term": "debounce",
+  "user": "Page search fires a request on every character, wait until the user stops scrolling.",
+  "output": "Debounce the search input.",
+  "paraphrase": true
+ },
+ {
+  "term": "debounce",
+  "user": "Page  search fires a request on every change, wait until the user stops typing into the box.",
+  "output": "Debounce the search input.",
+  "paraphrase": true
+ },
+ {
+  "term": "debounce",
+  "user": "Page search fires a request on every tick, wait until the  user stops typing into the box into the box.",
+  "output": "Debounce the search input.",
+  "paraphrase": true
+ },
+ {
+  "term": "debounce",
+  "user": "the  search fires a request on every keystroke, wait until the user stops scrolling into the box.",
+  "output": "Debounce the search input.",
+  "paraphrase": true
+ },
+ {
+  "term": "debounce",
+  "user": "Filters re-query on each click, batch them until the user finishes choosing.",
+  "output": "Debounce the filter updates.",
+  "paraphrase": false
+ },
+ {
+  "term": "debounce",
+  "user": "Filters re-query on each click, batch Pagem until Page user finishes choosing.",
+  "output": "Debounce the filter updates.",
+  "paraphrase": true
+ },
+ {
+  "term": "debounce",
+  "user": "Filters re-query on each click, batch Pagem until the  user finishes choosing.",
+  "output": "Debounce the filter updates.",
+  "paraphrase": true
+ },
+ {
+  "term": "debounce",
+  "user": "Filters re-query on each click, batch the m until the user finishes choosing.",
+  "output": "Debounce the filter updates.",
+  "paraphrase": true
+ },
+ {
+  "term": "debounce",
+  "user": "Filters re-query on each click, batch Pagem until the user finishes choosing.",
+  "output": "Debounce the filter updates.",
+  "paraphrase": true
+ },
+ {
+  "term": "debounce",
+  "user": "Filters re-query on each click, batch the   m until the user finishes choosing.",
+  "output": "Debounce the filter updates.",
+  "paraphrase": true
+ },
+ {
+  "term": "debounce",
+  "user": "The URL bar pings the server on every keystroke, only fire once the user pauses typing for a moment.",
+  "output": "Debounce the URL bar autocomplete.",
+  "paraphrase": false
+ },
+ {
+  "term": "debounce",
+  "user": "the   URL bar pings the server on every tick, only fire once the user pauses clicking for a moment.",
+  "output": "Debounce the URL bar autocomplete.",
+  "paraphrase": true
+ },
+ {
+  "term": "debounce",
+  "user": "The URL bar pings the server on every keystroke, only fire once the user pauses scrolling for a moment.",
+  "output": "Debounce the URL bar autocomplete.",
+  "paraphrase": true
+ },
+ {
+  "term": "debounce",
+  "user": "Page URL bar pings Page server on every tick, only fire once Page user pauses moving the slider for a moment.",
+  "output": "Debounce the URL bar autocomplete.",
+  "paraphrase": true
+ },
+ {
+  "term": "debounce",
+  "user": "Page URL bar pings Page server on every character, only fire once the user pauses typing for a moment.",
+  "output": "Debounce the URL bar autocomplete.",
+  "paraphrase": true
+ },
+ {
+  "term": "debounce",
+  "user": "the URL bar pings the server on every character, only fire once the user pauses moving the slider for a moment.",
+  "output": "Debounce the URL bar autocomplete.",
+  "paraphrase": true
+ },
+ {
+  "term": "debounce",
+  "user": "Page URL bar pings the  server on every tick, only fire once the user pauses moving the slider for a moment.",
+  "output": "Debounce the URL bar autocomplete.",
+  "paraphrase": true
+ },
+ {
+  "term": "debounce",
+  "user": "Page URL bar pings the  server on every keystroke, only fire once the user pauses scrolling into the box for a moment.",
+  "output": "Debounce the URL bar autocomplete.",
+  "paraphrase": true
+ },
+ {
+  "term": "debounce",
+  "user": "Page URL bar pings the server on every tick, only fire once the user pauses scrolling for a moment.",
+  "output": "Debounce the URL bar autocomplete.",
+  "paraphrase": true
+ },
+ {
+  "term": "debounce",
+  "user": "the  URL bar pings the server on every change, only fire once the user pauses scrolling for a moment.",
+  "output": "Debounce the URL bar autocomplete.",
+  "paraphrase": true
+ },
+ {
+  "term": "debounce",
+  "user": "Every scroll event triggers a callback; squash them into one after the scrolling stops.",
+  "output": "Debounce the scroll handler.",
+  "paraphrase": false
+ },
+ {
+  "term": "debounce",
+  "user": "Every scroll event triggers a callback; squash Pagem into one after Page scrolling stops.",
+  "output": "Debounce the scroll handler.",
+  "paraphrase": true
+ },
+ {
+  "term": "debounce",
+  "user": "Every scroll event triggers a callback; squash the m into one after the scrolling stops.",
+  "output": "Debounce the scroll handler.",
+  "paraphrase": true
+ },
+ {
+  "term": "debounce",
+  "user": "Every scroll event triggers a callback; squash Pagem into one after the  scrolling stops.",
+  "output": "Debounce the scroll handler.",
+  "paraphrase": true
+ },
+ {
+  "term": "debounce",
+  "user": "Every scroll event triggers a callback; squash the  m into one after the scrolling stops.",
+  "output": "Debounce the scroll handler.",
+  "paraphrase": true
+ },
+ {
+  "term": "debounce",
+  "user": "Every scroll event triggers a callback; squash Pagem into one after the scrolling stops.",
+  "output": "Debounce the scroll handler.",
+  "paraphrase": true
+ },
+ {
+  "term": "debounce",
+  "user": "Page resize listener recomputes layout on every pixel, run it only after resize settles.",
+  "output": "Debounce the resize recalculation.",
+  "paraphrase": true
+ },
+ {
+  "term": "debounce",
+  "user": "the  resize listener recomputes layout on every pixel, run it only after resize settles.",
+  "output": "Debounce the resize recalculation.",
+  "paraphrase": true
+ },
+ {
+  "term": "debounce",
+  "user": "the resize listener recomputes layout on every pixel, run it only after resize settles.",
+  "output": "Debounce the resize recalculation.",
+  "paraphrase": true
+ },
+ {
+  "term": "debounce",
+  "user": "Typing is streaming too many search queries; fire one query after a quiet gap.",
+  "output": "Debounce the search query with a delay.",
+  "paraphrase": false
+ },
+ {
+  "term": "debounce",
+  "user": "moving Page slider is streaming too many search queries; fire one query after a quiet gap.",
+  "output": "Debounce the search query with a delay.",
+  "paraphrase": true
+ },
+ {
+  "term": "debounce",
+  "user": "clicking into Page box is streaming too many search queries; fire one query after a quiet gap.",
+  "output": "Debounce the search query with a delay.",
+  "paraphrase": true
+ },
+ {
+  "term": "debounce",
+  "user": "moving the slider is streaming too many search queries; fire one query after a quiet gap.",
+  "output": "Debounce the search query with a delay.",
+  "paraphrase": true
+ },
+ {
+  "term": "debounce",
+  "user": "scrolling is streaming too many search queries; fire one query after a quiet gap.",
+  "output": "Debounce the search query with a delay.",
+  "paraphrase": true
+ },
+ {
+  "term": "debounce",
+  "user": "clicking is streaming too many search queries; fire one query after a quiet gap.",
+  "output": "Debounce the search query with a delay.",
+  "paraphrase": true
+ },
+ {
+  "term": "debounce",
+  "user": "typing into the box into the box is streaming too many search queries; fire one query after a quiet gap.",
+  "output": "Debounce the search query with a delay.",
+  "paraphrase": true
+ },
+ {
+  "term": "debounce",
+  "user": "clicking into the  box is streaming too many search queries; fire one query after a quiet gap.",
+  "output": "Debounce the search query with a delay.",
+  "paraphrase": true
+ },
+ {
+  "term": "debounce",
+  "user": "Each time the user types a letter we call the suggestions API; one call after they stop is enough.",
+  "output": "Debounce the suggestions fetch.",
+  "paraphrase": false
+ },
+ {
+  "term": "debounce",
+  "user": "Each time the  user types a letter we call the suggestions API; one call after they stop is enough.",
+  "output": "Debounce the suggestions fetch.",
+  "paraphrase": true
+ },
+ {
+  "term": "debounce",
+  "user": "Each time the   user types a letter we call the suggestions API; one call after they stop is enough.",
+  "output": "Debounce the suggestions fetch.",
+  "paraphrase": true
+ },
+ {
+  "term": "debounce",
+  "user": "Each time Page user types a letter we call Page suggestions API; one call after they stop is enough.",
+  "output": "Debounce the suggestions fetch.",
+  "paraphrase": true
+ },
+ {
+  "term": "debounce",
+  "user": "Each time Page user types a letter we call the  suggestions API; one call after they stop is enough.",
+  "output": "Debounce the suggestions fetch.",
+  "paraphrase": true
+ },
+ {
+  "term": "debounce",
+  "user": "Each time Page user types a letter we call the suggestions API; one call after they stop is enough.",
+  "output": "Debounce the suggestions fetch.",
+  "paraphrase": true
+ },
+ {
+  "term": "debounce",
+  "user": "The slider drag re-renders the chart per tick, only recompute once you release.",
+  "output": "Debounce the slider re-render.",
+  "paraphrase": false
+ },
+ {
+  "term": "debounce",
+  "user": "Page  slider drag re-renders the  chart per tick, only recompute once you release.",
+  "output": "Debounce the slider re-render.",
+  "paraphrase": true
+ },
+ {
+  "term": "debounce",
+  "user": "the   slider drag re-renders the chart per tick, only recompute once you release.",
+  "output": "Debounce the slider re-render.",
+  "paraphrase": true
+ },
+ {
+  "term": "debounce",
+  "user": "Page slider drag re-renders Page  chart per tick, only recompute once you release.",
+  "output": "Debounce the slider re-render.",
+  "paraphrase": true
+ },
+ {
+  "term": "debounce",
+  "user": "the  slider drag re-renders the chart per tick, only recompute once you release.",
+  "output": "Debounce the slider re-render.",
+  "paraphrase": true
+ },
+ {
+  "term": "debounce",
+  "user": "Page slider drag re-renders Page chart per tick, only recompute once you release.",
+  "output": "Debounce the slider re-render.",
+  "paraphrase": true
+ },
+ {
+  "term": "debounce",
+  "user": "Page  slider drag re-renders the chart per tick, only recompute once you release.",
+  "output": "Debounce the slider re-render.",
+  "paraphrase": true
+ },
+ {
+  "term": "debounce",
+  "user": "Page slider drag re-renders the chart per tick, only recompute once you release.",
+  "output": "Debounce the slider re-render.",
+  "paraphrase": true
+ },
+ {
+  "term": "debounce",
+  "user": "the slider drag re-renders the chart per tick, only recompute once you release.",
+  "output": "Debounce the slider re-render.",
+  "paraphrase": true
+ },
+ {
+  "term": "debounce",
+  "user": "Page slider drag re-renders the  chart per tick, only recompute once you release.",
+  "output": "Debounce the slider re-render.",
+  "paraphrase": true
+ },
+ {
+  "term": "event-sourcing",
+  "user": "Record every user change over time instead of just the final value.",
+  "output": "Model the balance with event sourcing.",
+  "paraphrase": true
+ },
+ {
+  "term": "event-sourcing",
+  "user": "Record every account change over time instead of just the final value.",
+  "output": "Model the balance with event sourcing.",
+  "paraphrase": true
+ },
+ {
+  "term": "event-sourcing",
+  "user": "Record every inventory change over time instead of just the final value.",
+  "output": "Model the balance with event sourcing.",
+  "paraphrase": true
+ },
+ {
+  "term": "event-sourcing",
+  "user": "The ledger should grow by appending state-changing events instead of mutating a row.",
+  "output": "Build the ledger on event sourcing.",
+  "paraphrase": false
+ },
+ {
+  "term": "event-sourcing",
+  "user": "Every user action should be written to the stream, not overwritten.",
+  "output": "Model the user's activity as event sourcing.",
+  "paraphrase": false
+ },
+ {
+  "term": "event-sourcing",
+  "user": "We need to replay the account from day one; keep the whole change log.",
+  "output": "Use event sourcing for the account history.",
+  "paraphrase": false
+ },
+ {
+  "term": "event-sourcing",
+  "user": "Instead of a snapshot, keep the full record of what happened and derive state.",
+  "output": "Derive state from a full event log.",
+  "paraphrase": false
+ },
+ {
+  "term": "optimistic",
+  "user": "Update the like button immediately, then fix it if the request fails.",
+  "output": "Apply an optimistic update and roll back on failure.",
+  "paraphrase": false
+ },
+ {
+  "term": "optimistic",
+  "user": "increment the like count immediately, then fix it if the request fails.",
+  "output": "Apply an optimistic update and roll back on failure.",
+  "paraphrase": true
+ },
+ {
+  "term": "optimistic",
+  "user": "render the like UI immediately, then fix it if the request fails.",
+  "output": "Apply an optimistic update and roll back on failure.",
+  "paraphrase": true
+ },
+ {
+  "term": "optimistic",
+  "user": "apply the like UI immediately, then fix it if the request fails.",
+  "output": "Apply an optimistic update and roll back on failure.",
+  "paraphrase": true
+ },
+ {
+  "term": "optimistic",
+  "user": "Show the new value right away and reconcile with the server later.",
+  "output": "Do an optimistic UI update and reconcile.",
+  "paraphrase": false
+ },
+ {
+  "term": "optimistic",
+  "user": "Tone the count up instantly, then correct it if the API rejects.",
+  "output": "Optimistically increment the count and revert on error.",
+  "paraphrase": false
+ },
+ {
+  "term": "optimistic",
+  "user": "The like should not wait for the network, stay in sync and undo if it fails.",
+  "output": "Like optimistically and roll back when the call fails.",
+  "paraphrase": false
+ },
+ {
+  "term": "optimistic",
+  "user": "Flip the switch in the UI at once and fix on the background slot failure.",
+  "output": "Optimistically flip the switch and reconcile.",
+  "paraphrase": false
+ },
+ {
+  "term": "circuit-breaker",
+  "user": "When the API keeps failing, stop hammering it to protect it, then retry the endpoint later.",
+  "output": "Add a circuit breaker around the failing API.",
+  "paraphrase": false
+ },
+ {
+  "term": "circuit-breaker",
+  "user": "When the service keeps erroring, stop hammering it to protect it, then check back the endpoint later.",
+  "output": "Add a circuit breaker around the failing API.",
+  "paraphrase": true
+ },
+ {
+  "term": "circuit-breaker",
+  "user": "When the provider keeps erroring, stop hammering it to protect it, then try again the endpoint later.",
+  "output": "Add a circuit breaker around the failing API.",
+  "paraphrase": true
+ },
+ {
+  "term": "circuit-breaker",
+  "user": "When the gateway keeps overloaded, stop hammering it to protect it, then try again the endpoint later.",
+  "output": "Add a circuit breaker around the failing API.",
+  "paraphrase": true
+ },
+ {
+  "term": "circuit-breaker",
+  "user": "When the gateway keeps erroring, stop hammering it to protect it, then check back the endpoint later.",
+  "output": "Add a circuit breaker around the failing API.",
+  "paraphrase": true
+ },
+ {
+  "term": "circuit-breaker",
+  "user": "When the dependency keeps flaky, stop hammering it to protect it, then check back the endpoint later.",
+  "output": "Add a circuit breaker around the failing API.",
+  "paraphrase": true
+ },
+ {
+  "term": "circuit-breaker",
+  "user": "When the provider keeps overloaded, stop hammering it to protect it, then try again the endpoint later.",
+  "output": "Add a circuit breaker around the failing API.",
+  "paraphrase": true
+ },
+ {
+  "term": "circuit-breaker",
+  "user": "After a few consecutive errors, the call should trip and stop for a bit.",
+  "output": "Add a circuit breaker around the flaky endpoint.",
+  "paraphrase": false
+ },
+ {
+  "term": "circuit-breaker",
+  "user": "Stop hammering the payment gateway when it is unhealthy; give it a cooldown and try again.",
+  "output": "Trip a circuit breaker on the payment gateway and retry after a cooldown.",
+  "paraphrase": false
+ },
+ {
+  "term": "circuit-breaker",
+  "user": "Too many errors in a row, the app should stop calling the service until it recovers.",
+  "output": "Open the circuit breaker after repeated failures.",
+  "paraphrase": false
+ },
+ {
+  "term": "circuit-breaker",
+  "user": "The email provider failing repeatedly should cut the traffic to it, then probe again.",
+  "output": "Open the circuit breaker for the email provider.",
+  "paraphrase": false
+ },
+ {
+  "term": "circuit-breaker",
+  "user": "The email provider overloaded repeatedly should cut the traffic to it, then probe again.",
+  "output": "Open the circuit breaker for the email provider.",
+  "paraphrase": true
+ },
+ {
+  "term": "circuit-breaker",
+  "user": "The email provider flaky repeatedly should cut the traffic to it, then probe again.",
+  "output": "Open the circuit breaker for the email provider.",
+  "paraphrase": true
+ },
+ {
+  "term": "circuit-breaker",
+  "user": "The email provider erroring repeatedly should cut the traffic to it, then probe again.",
+  "output": "Open the circuit breaker for the email provider.",
+  "paraphrase": true
+ },
+ {
+  "term": "circuit-breaker",
+  "user": "A flock of transient errors from the order flow keeps cascading, wrap the calls so they halt and retry later.",
+  "output": "Wrap the order calls in a circuit breaker.",
+  "paraphrase": false
+ },
+ {
+  "term": "circuit-breaker",
+  "user": "A flock of transient errors from the order flow keeps cascading, wrap the calls so they halt and try again later.",
+  "output": "Wrap the order calls in a circuit breaker.",
+  "paraphrase": true
+ },
+ {
+  "term": "circuit-breaker",
+  "user": "A flock of transient errors from the order flow keeps cascading, wrap the calls so they halt and check back later.",
+  "output": "Wrap the order calls in a circuit breaker.",
+  "paraphrase": true
+ },
+ {
+  "term": "circuit-breaker",
+  "user": "The supplier endpoint gets saturated and every retry makes it worse, so throw the switch and wait.",
+  "output": "Open the circuit breaker for the saturated supplier.",
+  "paraphrase": false
+ },
+ {
+  "term": "circuit-breaker",
+  "user": "The supplier endpoint gets saturated and every try again makes it worse, so throw the switch and wait.",
+  "output": "Open the circuit breaker for the saturated supplier.",
+  "paraphrase": true
+ },
+ {
+  "term": "circuit-breaker",
+  "user": "The supplier endpoint gets saturated and every check back makes it worse, so throw the switch and wait.",
+  "output": "Open the circuit breaker for the saturated supplier.",
+  "paraphrase": true
+ },
+ {
+  "term": "circuit-breaker",
+  "user": "The vendor keeps returning 5xx, so block the client from calling and audit after a fixed delay.",
+  "output": "Trip the circuit breaker for the failing vendor.",
+  "paraphrase": false
+ },
+ {
+  "term": "circuit-breaker",
+  "user": "The search backend being down should not take the whole app with it; isolate and retry smartly.",
+  "output": "Add a circuit breaker so a down backend doesn't cascade.",
+  "paraphrase": false
+ },
+ {
+  "term": "circuit-breaker",
+  "user": "The search backend being down should not take the whole app with it; isolate and try again smartly.",
+  "output": "Add a circuit breaker so a down backend doesn't cascade.",
+  "paraphrase": true
+ },
+ {
+  "term": "circuit-breaker",
+  "user": "The vendor API gets flaky, trips the system after a few errors for a while, then clearly recovers.",
+  "output": "Add a circuit breaker that trips the vendor API after errors and recovers.",
+  "paraphrase": false
+ },
+ {
+  "term": "circuit-breaker",
+  "user": "The vendor gateway gets flaky, trips the system after a few errors for a while, then clearly recovers.",
+  "output": "Add a circuit breaker that trips the vendor API after errors and recovers.",
+  "paraphrase": true
+ },
+ {
+  "term": "circuit-breaker",
+  "user": "The vendor dependency gets flaky, trips the system after a few errors for a while, then clearly recovers.",
+  "output": "Add a circuit breaker that trips the vendor API after errors and recovers.",
+  "paraphrase": true
+ },
+ {
+  "term": "circuit-breaker",
+  "user": "The vendor provider gets flaky, trips the system after a few errors for a while, then clearly recovers.",
+  "output": "Add a circuit breaker that trips the vendor API after errors and recovers.",
+  "paraphrase": true
+ },
+ {
+  "term": "circuit-breaker",
+  "user": "The vendor service gets flaky, trips the system after a few errors for a while, then clearly recovers.",
+  "output": "Add a circuit breaker that trips the vendor API after errors and recovers.",
+  "paraphrase": true
+ },
+ {
+  "term": "circuit-breaker",
+  "user": "The payment gateway might hiccup repeatedly; the app should stop sending and wait a bit before resuming.",
+  "output": "Put a circuit breaker in front of the payment gateway.",
+  "paraphrase": false
+ },
+ {
+  "term": "circuit-breaker",
+  "user": "The upstream service keeps failing in spurts, so the caller should back off and retry after a break.",
+  "output": "Add a circuit breaker so callers back off and retry later.",
+  "paraphrase": false
+ },
+ {
+  "term": "circuit-breaker",
+  "user": "The upstream service keeps overloaded in spurts, so the caller should back off and check back after a break.",
+  "output": "Add a circuit breaker so callers back off and retry later.",
+  "paraphrase": true
+ },
+ {
+  "term": "circuit-breaker",
+  "user": "The upstream service keeps overloaded in spurts, so the caller should back off and try again after a break.",
+  "output": "Add a circuit breaker so callers back off and retry later.",
+  "paraphrase": true
+ },
+ {
+  "term": "circuit-breaker",
+  "user": "The upstream service keeps overloaded in spurts, so the caller should back off and retry after a break.",
+  "output": "Add a circuit breaker so callers back off and retry later.",
+  "paraphrase": true
+ },
+ {
+  "term": "circuit-breaker",
+  "user": "The upstream service keeps flaky in spurts, so the caller should back off and check back after a break.",
+  "output": "Add a circuit breaker so callers back off and retry later.",
+  "paraphrase": true
+ },
+ {
+  "term": "idempotent",
+  "user": "If the same retry arrives a second time, the server should treat it like the first and return the same result.",
+  "output": "Make the API idempotent to retries.",
+  "paraphrase": false
+ },
+ {
+  "term": "backpressure",
+  "user": "The sink can't drain as fast as the source emits, the source should be told to hold off.",
+  "output": "Apply backpressure between the source and the sink.",
+  "paraphrase": false
+ },
+ {
+  "term": "circuit-breaker",
+  "user": "The third-party API has been failing for a while; the app should gate upstream calls until it heals.",
+  "output": "Open a circuit breaker on the third party API.",
+  "paraphrase": false
+ }
+]

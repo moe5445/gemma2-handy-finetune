@@ -1,0 +1,127 @@
+[
+  {
+    "term": "debounce",
+    "user": "The React table's typeahead fires a GraphQL query on every character someone types, throttle it so we only query once the person pauses.",
+    "canonical_line": "Debounce the typeahead search."
+  },
+  {
+    "term": "lazy-load",
+    "user": "Our Next.js homepage bundles every chart library up front and the Lighthouse score tanks, load the heavy charts only when the dashboard tab is opened.",
+    "canonical_line": "Lazy-load the chart bundles on dashboard open."
+  },
+  {
+    "term": "optimistic",
+    "user": "The like button on the posts feed feels slow because it waits for the API round trip, update the counter right away and correct it if the request fails.",
+    "canonical_line": "Apply an optimistic update to the like counter."
+  },
+  {
+    "term": "mock",
+    "user": "The Clerk auth provider isn't configured in our CI yet, so the component tests should run against a fake session provider instead of the real one.",
+    "canonical_line": "Mock the auth provider in tests."
+  },
+  {
+    "term": "blue-green",
+    "user": "Vercel should keep serving the current production build until the new deployment passes its checks, then switch traffic over without users noticing a blip.",
+    "canonical_line": "Deploy with a blue-green rollout on Vercel."
+  },
+  {
+    "term": "rate-limit",
+    "user": "Someone is brute-forcing the login form, put a stop on how many password attempts one IP can make per minute.",
+    "canonical_line": "Rate-limit login attempts per IP."
+  },
+  {
+    "term": "idempotent",
+    "user": "The mobile app retries the login call and the double request ends up firing two refresh-token grants, the server should ignore the duplicate.",
+    "canonical_line": "Make the login request idempotent."
+  },
+  {
+    "term": "circuit-breaker",
+    "user": "The session service has been timing out all morning and every page request now waits on it, stop calling it for a while and retry later so the site stays fast.",
+    "canonical_line": "Add a circuit breaker to the session service."
+  },
+  {
+    "term": "cron",
+    "user": "The weekly React bundle-size report should be emailed to the team every Monday at 9am automatically, no one should remember to run it.",
+    "canonical_line": "Schedule the bundle-size report with a cron job."
+  },
+  {
+    "term": "event-sourcing",
+    "user": "The order history should never lose how each status change happened, keep an append-only record of every transition instead of overwriting the current state.",
+    "canonical_line": "Model the order history with event sourcing."
+  },
+  {
+    "term": "backpressure",
+    "user": "The Next.js API handlers are pushing thousands of events into the analytics queue but the workers can only drain a few hundred a second, make the handlers hold off when the queue backs up.",
+    "canonical_line": "Apply backpressure when the analytics queue fills."
+  },
+  {
+    "term": "debounce",
+    "user": "The settings sliders re-render the preview and hit the server on every pixel of movement, only sync after the user releases the slider.",
+    "canonical_line": "Debounce the slider sync."
+  },
+  {
+    "term": "lazy-load",
+    "user": "The profile page currently renders 10,000 activity rows into the DOM, render only the visible rows and fetch the rest as the user scrolls.",
+    "canonical_line": "Lazy-load the activity rows on scroll."
+  },
+  {
+    "term": "mock",
+    "user": "The Stripe webhook simulator should be replaced in dev with canned events so local testing doesn't hit the live account.",
+    "canonical_line": "Mock the Stripe webhooks in dev."
+  },
+  {
+    "term": "blue-green",
+    "user": "We want to roll back instantly if the new Next.js version misbehaves, so keep the previous deployment live and only shift traffic after the health checks pass.",
+    "canonical_line": "Use a blue-green deploy for instant rollback."
+  },
+  {
+    "term": "idempotent",
+    "user": "The webhook that creates a user can be delivered twice by our queue and we end up with duplicate accounts, key the handler so re-delivery is harmless.",
+    "canonical_line": "Make the webhook delivery idempotent."
+  },
+  {
+    "term": "rate-limit",
+    "user": "The marketing site's contact form is being spammed with submissions, cap each visitor to a few posts a day.",
+    "canonical_line": "Rate-limit form submissions per visitor."
+  },
+  {
+    "term": "optimistic",
+    "user": "The Kanban board should move the card instantly when dragged, then roll it back if the move request errors.",
+    "canonical_line": "Do an optimistic card move with rollback."
+  },
+  {
+    "term": "cron",
+    "user": "The staging database should reset itself with seed data every night at 2am so devs always start with a clean state.",
+    "canonical_line": "Schedule the nightly DB reset with cron."
+  },
+  {
+    "term": "circuit-breaker",
+    "user": "The recommendation service is returning 500s in bursts, the product page should stop depending on it after a few failures and try again after a cooldown.",
+    "canonical_line": "Wrap the recommendation service in a circuit breaker."
+  },
+  {
+    "term": "backpressure",
+    "user": "The image-processing workers can't keep up during upload spikes, the upload API should signal clients to slow down rather than drop images.",
+    "canonical_line": "Apply backpressure to uploads during spikes."
+  },
+  {
+    "term": "mock",
+    "user": "The Sentry integration keeps sending real error reports from our playground environment, replace it with a no-op in dev builds.",
+    "canonical_line": "Mock Sentry in dev builds."
+  },
+  {
+    "term": "lazy-load",
+    "user": "The app router page loads all locales on startup, load the current locale first and fetch others only when the language switches.",
+    "canonical_line": "Lazy-load locale bundles on switch."
+  },
+  {
+    "term": "debounce",
+    "user": "The scroll spy updates the URL hash for every section crossed and pollutes the history, batch the updates until scrolling settles.",
+    "canonical_line": "Debounce the scroll-spy URL updates."
+  },
+  {
+    "term": "event-sourcing",
+    "user": "The inventory ledger keeps only the final quantity, store every stock adjustment as an event so we can replay and audit it.",
+    "canonical_line": "Use event sourcing for the inventory ledger."
+  }
+]

@@ -1,0 +1,14 @@
+# secrets
+hf_token.txt
+.env
+
+# caches / env
+__pycache__/
+*.pyc
+.venv/
+
+# large model artifacts (kept local / on HuggingFace Hub)
+models/
+
+# macOS
+.DS_Store

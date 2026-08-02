@@ -1,0 +1,22 @@
+FROM /Users/moe/gemma2-handy-finetune/models/gemma2-q4_k_m.gguf
+TEMPLATE """
+{{- range $i, $_ := .Messages }}
+{{- $last := eq (len (slice $.Messages $i)) 1 }}
+{{- if or (eq .Role "user") (eq .Role "system") }}<start_of_turn>user
+{{ .Content }}<end_of_turn>
+{{ if $last }}<start_of_turn>model
+{{ end }}
+{{- else if eq .Role "assistant" }}<start_of_turn>model
+{{ .Content }}{{ if not $last }}<end_of_turn>
+{{ end }}
+{{- end }}
+{{- end }}"""
+PARAMETER temperature 0.2
+PARAMETER top_p 0.5
+PARAMETER num_predict 20
+PARAMETER repeat_penalty 1.1
+PARAMETER stop <start_of_turn>
+PARAMETER stop <end_of_turn>
+PARAMETER stop ```
+PARAMETER stop ```json
+PARAMETER stop ```yaml
